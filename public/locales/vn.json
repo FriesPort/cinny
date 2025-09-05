@@ -1,0 +1,352 @@
+{
+  "Organisms": {
+    "RoomCommon": {
+      "changed_room_name": " đã đổi tên phòng"
+    }
+  },
+  "Components": {
+    "PasswordStage": {
+      "account_password": "Mật khẩu tài khoản",
+      "auth_instruction": "Để thực hiện hành động này, bạn cần xác thực bằng cách nhập mật khẩu tài khoản của mình.",
+      "password": "Mật khẩu",
+      "invalid_password": "Mật khẩu không hợp lệ!",
+      "continue": "Tiếp tục"
+    },
+    "EmailStage": {
+      "email": "Email",
+      "send_verification_email": "Gửi email xác minh",
+      "cancel": "Hủy",
+      "verify_email": "Xác minh email",
+      "failed_to_send": "Gửi yêu cầu email xác minh thất bại.",
+      "verification_sent": "Đã gửi yêu cầu xác minh",
+      "check_email": "Vui lòng kiểm tra email \"{{email}}\" của bạn và xác minh trước khi tiếp tục.",
+      "continue": "Tiếp tục",
+      "provide_email": "Cung cấp Email",
+      "please_provide_email": "Vui lòng cung cấp email để gửi yêu cầu xác minh.",
+      "sending_verification": "Đang gửi email xác minh..."
+    },
+    "ReCaptchaStage": {
+      "cancel": "Hủy",
+      "invalid_data": "Dữ liệu không hợp lệ",
+      "no_valid_data": "Không tìm thấy dữ liệu hợp lệ để tiến hành xác minh ReCAPTCHA.",
+      "check_box": "Vui lòng tích vào ô bên dưới để tiếp tục."
+    },
+    "RegistrationTokenStage": {
+      "registration_token": "Mã thông báo đăng ký",
+      "retry": "Thử lại",
+      "cancel": "Hủy",
+      "invalid_token": "Mã thông báo đăng ký được cung cấp không hợp lệ.",
+      "please_submit_token": "Vui lòng gửi mã thông báo đăng ký do quản trị viên máy chủ của bạn cung cấp."
+    },
+    "SSOStage": {
+      "sso_login": "Đăng nhập SSO",
+      "auth_instruction": "Để thực hiện hành động này, bạn cần xác thực thông qua đăng nhập SSO.",
+      "continue": "Tiếp tục",
+      "continue_with_sso": "Tiếp tục với SSO"
+    },
+    "TermsStage": {
+      "retry": "Thử lại",
+      "cancel": "Hủy",
+      "failed_to_submit": "Gửi chấp nhận điều khoản và điều kiện thất bại."
+    },
+    "AdditionalCreatorInput": {
+      "founders": "Người sáng lập",
+      "founders_description": "Người dùng có đặc quyền đặc biệt có thể được chỉ định khi tạo. Những người dùng này có quyền kiểm soát cao hơn và chỉ có thể được sửa đổi trong quá trình nâng cấp.",
+      "enter": "Nhập",
+      "username_placeholder": "@tênngườidùng:máychủ",
+      "no_suggestions": "Không có gợi ý",
+      "provide_user_id": "Vui lòng cung cấp ID người dùng và nhấn Enter."
+    },
+    "CreateRoomAliasInput": {
+      "address_optional": "Địa chỉ (tùy chọn)",
+      "pick_unique_address": "Chọn một địa chỉ duy nhất để có thể khám phá được.",
+      "address_taken": "Địa chỉ này đã được sử dụng. Vui lòng chọn địa chỉ khác."
+    },
+    "CreateRoomKindSelector": {
+      "restricted": "Hạn chế",
+      "restricted_description": "Chỉ thành viên của không gian cha mới có thể tham gia.",
+      "private": "Riêng tư",
+      "private_description": "Chỉ những người được mời mới có thể tham gia.",
+      "public": "Công khai",
+      "public_description": "Bất kỳ ai có địa chỉ đều có thể tham gia."
+    },
+    "RoomVersionSelector": {
+      "version": "Phiên bản",
+      "versions": "Các phiên bản"
+    },
+    "Editor": {
+      "bold": "Đậm",
+      "italic": "Nghiêng",
+      "underline": "Gạch chân",
+      "strike_through": "Gạch ngang",
+      "inline_code": "Mã nội dòng",
+      "spoiler": "Spoiler",
+      "block_quote": "Trích dẫn khối",
+      "block_code": "Khối mã",
+      "ordered_list": "Danh sách có thứ tự",
+      "unordered_list": "Danh sách không thứ tự",
+      "heading_1": "Tiêu đề 1",
+      "heading_2": "Tiêu đề 2",
+      "heading_3": "Tiêu đề 3",
+      "exit_formatting": "Thoát định dạng",
+      "disable_markdown": "Tắt Markdown",
+      "enable_markdown": "Bật Markdown"
+    }
+  },
+  "Pages": {
+    "Login": {
+      "login": "Đăng nhập",
+      "no_support": "Máy khách này không hỗ trợ đăng nhập trên máy chủ \"{{server}}\". Không tìm thấy phương thức đăng nhập dựa trên mật khẩu và SSO.",
+      "no_account": "Chưa có tài khoản?",
+      "register": "Đăng ký"
+    },
+    "PasswordLoginForm": {
+      "hint": "Gợi ý",
+      "username_hint": "Tên người dùng:",
+      "matrix_id_hint": "Matrix ID:",
+      "email_hint": "Email:",
+      "username": "Tên người dùng",
+      "server_not_allowed": "Phiên bản máy khách của bạn không cho phép đăng nhập với các máy chủ tùy chỉnh.",
+      "failed_find_server": "Không thể tìm thấy máy chủ Matrix ID của bạn.",
+      "password": "Mật khẩu",
+      "invalid_credentials": "Tên người dùng hoặc mật khẩu không hợp lệ.",
+      "account_deactivated": "Tài khoản này đã bị vô hiệu hóa.",
+      "invalid_request": "Đăng nhập thất bại. Một số dữ liệu yêu cầu của bạn không hợp lệ.",
+      "rate_limited": "Đăng nhập thất bại. Yêu cầu đăng nhập của bạn đã bị máy chủ giới hạn tốc độ, vui lòng thử lại sau.",
+      "unknown_error": "Đăng nhập thất bại. Lý do không xác định.",
+      "forget_password": "Quên mật khẩu?",
+      "login_button": "Đăng nhập"
+    },
+    "Register": {
+      "register": "Đăng ký",
+      "have_account": "Đã có tài khoản?",
+      "login": "Đăng nhập",
+      "registration_disabled": "Đăng ký bị vô hiệu hóa trên máy chủ này.",
+      "rate_limited": "Bạn đang bị giới hạn tốc độ! Vui lòng thử lại sau.",
+      "invalid_request": "Yêu cầu không hợp lệ! Không thể lấy được bất kỳ tùy chọn đăng ký nào.",
+      "not_support_registration": "Ứng dụng này không hỗ trợ đăng ký trên máy chủ này."
+    },
+    "ResetPassword": {
+      "reset_password": "Đặt lại Mật khẩu",
+      "remember_password": "Nhớ mật khẩu?",
+      "login": "Đăng nhập",
+      "reset_success": "Mật khẩu đã được đặt lại thành công. Vui lòng đăng nhập bằng mật khẩu mới của bạn.",
+      "homeserver_email": "Máy chủ {{server}} sẽ gửi cho bạn một email để đặt lại mật khẩu.",
+      "email": "Email",
+      "new_password": "Mật khẩu Mới",
+      "confirm_password": "Xác nhận Mật khẩu",
+      "reset_button": "Đặt lại Mật khẩu"
+    },
+    "ServerPicker": {
+      "homeserver_list": "Danh sách Máy chủ"
+    },
+    "AuthLayout": {
+      "homeserver": "Máy chủ",
+      "looking_for_homeserver": "Đang tìm máy chủ...",
+      "failed_to_find_homeserver": "Không thể tìm thấy máy chủ.",
+      "failed_to_connect_config": "Kết nối thất bại. Cấu hình máy chủ được tìm thấy {{host}} có vẻ không thể sử dụng được.",
+      "failed_to_connect_invalid": "Kết nối thất bại. Cấu hình base_url của máy chủ có vẻ không hợp lệ.",
+      "connecting_to": "Đang kết nối đến {{url}}",
+      "failed_to_connect": "Kết nối thất bại. Máy chủ hiện không khả dụng hoặc không tồn tại.",
+      "loading_auth_flow": "Đang tải luồng xác thực...",
+      "failed_to_get_auth_flow": "Không thể lấy thông tin luồng xác thực."
+    },
+    "AuthFooter": {
+      "about": "Giới thiệu",
+      "powered_by_matrix": "Được cung cấp bởi Matrix"
+    },
+    "SSOLogin": {
+      "continue_with_sso": "Tiếp tục với SSO",
+      "continue_with": "Tiếp tục với {{name}}"
+    },
+    "WelcomePage": {
+      "welcome_to_cinny": "Chào mừng đến với Cinny",
+      "subtitle": "Lại một máy khách Matrix khác.",
+      "source_code": "Mã Nguồn",
+      "support": "Hỗ trợ"
+    },
+    "SyncStatus": {
+      "connecting": "Đang kết nối...",
+      "connection_lost_reconnecting": "Mất kết nối! Đang kết nối lại...",
+      "connection_lost": "Mất kết nối!"
+    },
+    "HomeTab": {
+      "mark_as_read": "Đánh dấu là đã đọc",
+      "home": "Trang chủ"
+    },
+    "SettingsTab": {
+      "user_settings": "Cài đặt Người dùng"
+    },
+    "PasswordRegisterForm": {
+      "username": "Tên người dùng",
+      "password": "Mật khẩu",
+      "confirm_password": "Xác nhận Mật khẩu",
+      "register_button": "Đăng ký",
+      "password_mismatch": "Mật khẩu không khớp",
+      "invalid_username": "Tên người dùng không hợp lệ",
+      "invalid_password": "Mật khẩu quá ngắn hoặc quá yếu"
+    },
+    "Home": {
+      "title": "Trang chủ",
+      "mark_as_read": "Đánh dấu là đã đọc",
+      "no_rooms": "Không có phòng",
+      "no_rooms_description": "Bạn chưa có phòng nào.",
+      "create_room": "Tạo phòng",
+      "create_room_button": "Tạo phòng",
+      "explore_community_rooms": "Khám phá phòng cộng đồng",
+      "join_with_address": "Tham gia bằng địa chỉ",
+      "message_search": "Tìm kiếm tin nhắn",
+      "rooms": "Các phòng"
+    }
+  },
+  "Settings": {
+    "general": "Chung",
+    "account": "Tài khoản",
+    "notifications": "Thông báo",
+    "devices": "Thiết bị",
+    "emojis_stickers": "Emoji & Nhãn dán",
+    "developer_tools": "Công cụ dành cho nhà phát triển",
+    "about": "Giới thiệu",
+    "appearance": "Giao diện",
+    "system_theme": "Chủ đề hệ thống",
+    "system_theme_description": "Chọn chủ đề sáng hoặc tối dựa trên tùy chọn hệ thống.",
+    "theme": "Chủ đề",
+    "theme_description": "Chủ đề sử dụng khi chủ đề hệ thống không được bật.",
+    "monochrome_mode": "Chế độ đơn sắc",
+    "twitter_emoji": "Twitter Emoji",
+    "page_zoom": "Thu phóng trang",
+    "formatting": "Định dạng",
+    "year": "Năm",
+    "month": "Tháng",
+    "day_of_month": "Ngày trong tháng",
+    "day_of_week": "Ngày trong tuần",
+    "save": "Lưu",
+    "date_format": "Định dạng ngày",
+    "date_time": "Ngày & Giờ",
+    "24_hour_time_format": "Định dạng giờ 24 giờ",
+    "editor": "Trình soạn thảo",
+    "enter_for_newline": "Enter để xuống dòng",
+    "enter_for_newline_description": "Sử dụng Ctrl+ENTER để gửi tin nhắn, ENTER để xuống dòng.",
+    "markdown_formatting": "Định dạng Markdown",
+    "hide_typing_read_receipts": "Ẩn đang nhập & biên nhận đã đọc",
+    "hide_typing_read_receipts_description": "Tắt tính năng đang nhập và biên nhận đã đọc để bảo vệ quyền riêng tư của bạn.",
+    "messages": "Tin nhắn",
+    "message_layout": "Bố cục tin nhắn",
+    "message_spacing": "Khoảng cách tin nhắn",
+    "legacy_username_color": "Màu tên người dùng cũ",
+    "hide_membership_change": "Ẩn thay đổi thành viên",
+    "hide_profile_change": "Ẩn thay đổi hồ sơ",
+    "disable_media_auto_load": "Tắt tự động tải phương tiện",
+    "url_preview": "Xem trước URL",
+    "url_preview_encrypted_room": "Xem trước URL trong phòng được mã hóa",
+    "show_hidden_events": "Hiện sự kiện ẩn"
+  },
+  "EmojiBoard": {
+    "sticker": "Nhãn dán",
+    "emoji": "Emoji",
+    "recent": "Gần đây",
+    "search_or_text_reaction": "Tìm kiếm hoặc Phản ứng văn bản",
+    "search": "Tìm kiếm",
+    "react": "Phản ứng",
+    "search_results": "Kết quả tìm kiếm",
+    "no_results_found": "Không tìm thấy kết quả nào",
+    "no_sticker_packs": "Không có gói nhãn dán!",
+    "add_stickers_from_settings": "Thêm nhãn dán từ cài đặt người dùng, phòng hoặc không gian.",
+    "unknown_pack": "Gói không xác định",
+    "personal_pack": "Gói cá nhân",
+    "unknown": "Không xác định"
+  },
+  "ClientRoot": {
+    "heating_up": "Đang khởi động",
+    "clear_cache_reload": "Xóa bộ nhớ cache và tải lại",
+    "logout": "Đăng xuất",
+    "failed_to_load": "Tải thất bại. {{error}}",
+    "failed_to_start": "Khởi động thất bại. {{error}}",
+    "retry": "Thử lại"
+  },
+  "EventReaders": {
+    "seen_by": "Đã xem bởi"
+  },
+  "ImageEditor": {
+    "image_editor": "Trình chỉnh sửa ảnh",
+    "save": "Lưu"
+  },
+  "ImagePackView": {
+    "emojis_and_stickers": "Emoji & Nhãn dán"
+  },
+  "ImageViewer": {
+    "download": "Tải xuống"
+  },
+  "InviteUserPrompt": {
+    "invite": "Mời",
+    "user_id": "ID Người dùng",
+    "username_server_placeholder": "@tênngườidùng:máychủ",
+    "reason_optional": "Lý do (tùy chọn)",
+    "invite_button": "Mời"
+  },
+  "JoinAddressPrompt": {
+    "join_with_address": "Tham gia bằng địa chỉ",
+    "enter_public_address": "Nhập địa chỉ công khai để tham gia cộng đồng. Định dạng địa chỉ:",
+    "address": "Địa chỉ",
+    "invalid_address": "Địa chỉ không hợp lệ",
+    "open": "Mở"
+  },
+  "LeaveRoomPrompt": {
+    "leave_room": "Rời phòng",
+    "confirm_leave": "Bạn có chắc chắn muốn rời phòng này không?",
+    "failed_to_leave": "Rời phòng thất bại!",
+    "leaving": "Đang rời...",
+    "leave": "Rời"
+  },
+  "LeaveSpacePrompt": {
+    "leave_space": "Rời không gian",
+    "confirm_leave": "Bạn có chắc chắn muốn rời không gian này không?",
+    "failed_to_leave": "Rời không gian thất bại!",
+    "leaving": "Đang rời...",
+    "leave": "Rời"
+  },
+  "MsgTypeRenderers": {
+    "image": "Hình ảnh",
+    "video": "Video",
+    "audio": "Âm thanh",
+    "unnamed_file": "Tập tin không tên",
+    "file": "Tập tin",
+    "open_location": "Mở vị trí",
+    "sticker": "Nhãn dán"
+  },
+  "AccountDataEditor": {
+    "account_data": "Dữ liệu tài khoản",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "json_content": "Nội dung JSON",
+    "edit": "Chỉnh sửa"
+  },
+  "Features": {
+    "CreateRoomForm": {
+      "access": "Quyền truy cập",
+      "name": "Tên",
+      "topic_optional": "Chủ đề (Tùy chọn)",
+      "options": "Tùy chọn",
+      "advance_options": "Tùy chọn nâng cao",
+      "create": "Tạo",
+      "encryption": "Mã hóa end-to-end",
+      "encryption_description": "Một khi tính năng này được bật, nó không thể bị tắt sau khi phòng được tạo.",
+      "knock_to_join": "Gõ cửa để tham gia",
+      "knock_to_join_description": "Bất kỳ ai cũng có thể gửi yêu cầu tham gia phòng này.",
+      "allow_federation": "Cho phép liên bang",
+      "allow_federation_description": "Người dùng từ các máy chủ khác có thể tham gia."
+    },
+    "CreateSpaceForm": {
+      "access": "Quyền truy cập",
+      "name": "Tên",
+      "topic_optional": "Chủ đề (Tùy chọn)",
+      "options": "Tùy chọn",
+      "advance_options": "Tùy chọn nâng cao",
+      "create": "Tạo",
+      "knock_to_join": "Gõ cửa để tham gia",
+      "knock_to_join_description": "Bất kỳ ai cũng có thể gửi yêu cầu tham gia không gian này.",
+      "allow_federation": "Cho phép liên bang",
+      "allow_federation_description": "Người dùng từ các máy chủ khác có thể tham gia."
+    }
+  }
+}

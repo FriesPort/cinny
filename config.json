@@ -1,13 +1,14 @@
 {
   "defaultHomeserver": 0,
   "homeserverList": [
-
+    
     "matrix.org",
     "mozilla.org",
 
     "4d2.org",
     "archaeo.social",
     "bark.lgbt",
+    "bestzyq.cn",
     "calitabby.net",
     "catgirl.cloud",
     "comm.cx",
@@ -130,7 +131,7 @@
   },
 
   "hashRouter": {
-    "enabled": false,
+    "enabled": true,
     "basename": "/"
   }
 }

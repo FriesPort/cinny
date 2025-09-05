@@ -1,0 +1,352 @@
+{
+  "Organisms": {
+    "RoomCommon": {
+      "changed_room_name": " изменил(а) название комнаты"
+    }
+  },
+  "Components": {
+    "PasswordStage": {
+      "account_password": "Пароль аккаунта",
+      "auth_instruction": "Для выполнения этого действия необходимо пройти аутентификацию, введя пароль вашего аккаунта.",
+      "password": "Пароль",
+      "invalid_password": "Неверный пароль!",
+      "continue": "Продолжить"
+    },
+    "EmailStage": {
+      "email": "Email",
+      "send_verification_email": "Отправить письмо для подтверждения",
+      "cancel": "Отмена",
+      "verify_email": "Подтвердить Email",
+      "failed_to_send": "Не удалось отправить запрос на подтверждение по email.",
+      "verification_sent": "Запрос на подтверждение отправлен",
+      "check_email": "Пожалуйста, проверьте вашу почту \"{{email}}\" и подтвердите её перед продолжением.",
+      "continue": "Продолжить",
+      "provide_email": "Укажите Email",
+      "please_provide_email": "Пожалуйста, укажите email для отправки запроса на подтверждение.",
+      "sending_verification": "Отправка письма для подтверждения..."
+    },
+    "ReCaptchaStage": {
+      "cancel": "Отмена",
+      "invalid_data": "Неверные данные",
+      "no_valid_data": "Не найдено действительных данных для проверки ReCAPTCHA.",
+      "check_box": "Пожалуйста, поставьте галочку ниже, чтобы продолжить."
+    },
+    "RegistrationTokenStage": {
+      "registration_token": "Токен регистрации",
+      "retry": "Повторить",
+      "cancel": "Отмена",
+      "invalid_token": "Предоставленный токен регистрации недействителен.",
+      "please_submit_token": "Пожалуйста, предоставьте токен регистрации, выданный администратором вашего сервера."
+    },
+    "SSOStage": {
+      "sso_login": "SSO Вход",
+      "auth_instruction": "Для выполнения этого действия необходимо пройти аутентификацию через SSO.",
+      "continue": "Продолжить",
+      "continue_with_sso": "Продолжить через SSO"
+    },
+    "TermsStage": {
+      "retry": "Повторить",
+      "cancel": "Отмена",
+      "failed_to_submit": "Не удалось отправить принятие условий использования."
+    },
+    "AdditionalCreatorInput": {
+      "founders": "Основатели",
+      "founders_description": "Привилегированные пользователи могут быть назначены при создании. Эти пользователи имеют расширенные права управления и могут быть изменены только во время обновлений.",
+      "enter": "Ввести",
+      "username_placeholder": "@имя_пользователя:сервер",
+      "no_suggestions": "Нет предложений",
+      "provide_user_id": "Пожалуйста, укажите ID пользователя и нажмите Enter."
+    },
+    "CreateRoomAliasInput": {
+      "address_optional": "Адрес (опционально)",
+      "pick_unique_address": "Выберите уникальный адрес, чтобы сделать комнату discoverable.",
+      "address_taken": "Этот адрес уже занят. Пожалуйста, выберите другой."
+    },
+    "CreateRoomKindSelector": {
+      "restricted": "Ограниченный",
+      "restricted_description": "Только участники родительского пространства могут присоединиться.",
+      "private": "Приватный",
+      "private_description": "Только приглашённые люди могут присоединиться.",
+      "public": "Публичный",
+      "public_description": "Любой, у кого есть адрес, может присоединиться."
+    },
+    "RoomVersionSelector": {
+      "version": "Версия",
+      "versions": "Версии"
+    },
+    "Editor": {
+      "bold": "Жирный",
+      "italic": "Курсив",
+      "underline": "Подчёркнутый",
+      "strike_through": "Зачёркнутый",
+      "inline_code": "Строчный код",
+      "spoiler": "Спойлер",
+      "block_quote": "Цитата",
+      "block_code": "Блок кода",
+      "ordered_list": "Нумерованный список",
+      "unordered_list": "Маркированный список",
+      "heading_1": "Заголовок 1",
+      "heading_2": "Заголовок 2",
+      "heading_3": "Заголовок 3",
+      "exit_formatting": "Выйти из форматирования",
+      "disable_markdown": "Отключить Markdown",
+      "enable_markdown": "Включить Markdown"
+    }
+  },
+  "Pages": {
+    "Login": {
+      "login": "Войти",
+      "no_support": "Этот клиент не поддерживает вход на сервере \"{{server}}\". Не найдено методов входа по паролю и через SSO.",
+      "no_account": "Нет аккаунта?",
+      "register": "Зарегистрироваться"
+    },
+    "PasswordLoginForm": {
+      "hint": "Подсказка",
+      "username_hint": "Имя пользователя:",
+      "matrix_id_hint": "Matrix ID:",
+      "email_hint": "Email:",
+      "username": "Имя пользователя",
+      "server_not_allowed": "Ваш экземпляр клиента не позволяет вход с пользовательскими серверами.",
+      "failed_find_server": "Не удалось найти сервер вашего Matrix ID.",
+      "password": "Пароль",
+      "invalid_credentials": "Неверное имя пользователя или пароль.",
+      "account_deactivated": "Этот аккаунт деактивирован.",
+      "invalid_request": "Ошибка входа. Некоторые данные вашего запроса недействительны.",
+      "rate_limited": "Ошибка входа. Ваш запрос на вход был ограничен сервером по частоте, попробуйте позже.",
+      "unknown_error": "Ошибка входа. Неизвестная причина.",
+      "forget_password": "Забыли пароль?",
+      "login_button": "Войти"
+    },
+    "Register": {
+      "register": "Регистрация",
+      "have_account": "Уже есть аккаунт?",
+      "login": "Войти",
+      "registration_disabled": "Регистрация отключена на этом сервере.",
+      "rate_limited": "Вы ограничены по частоте запросов! Пожалуйста, попробуйте позже.",
+      "invalid_request": "Неверный запрос! Не удалось получить параметры регистрации.",
+      "not_support_registration": "Это приложение не поддерживает регистрацию на данном сервере."
+    },
+    "ResetPassword": {
+      "reset_password": "Сброс пароля",
+      "remember_password": "Вспомнили пароль?",
+      "login": "Войти",
+      "reset_success": "Пароль успешно сброшен. Пожалуйста, войдите с вашим новым паролем.",
+      "homeserver_email": "Домашний сервер {{server}} отправит вам email для сброса пароля.",
+      "email": "Email",
+      "new_password": "Новый пароль",
+      "confirm_password": "Подтвердите пароль",
+      "reset_button": "Сбросить пароль"
+    },
+    "ServerPicker": {
+      "homeserver_list": "Список домашних серверов"
+    },
+    "AuthLayout": {
+      "homeserver": "Домашний сервер",
+      "looking_for_homeserver": "Поиск домашнего сервера...",
+      "failed_to_find_homeserver": "Не удалось найти домашний сервер.",
+      "failed_to_connect_config": "Ошибка подключения. Найденная конфигурация домашнего сервера {{host}} кажется непригодной.",
+      "failed_to_connect_invalid": "Ошибка подключения. Базовый URL конфигурации домашнего сервера кажется недействительным.",
+      "connecting_to": "Подключение к {{url}}",
+      "failed_to_connect": "Ошибка подключения. Домашний сервер в настоящее время недоступен или не существует.",
+      "loading_auth_flow": "Загрузка потока аутентификации...",
+      "failed_to_get_auth_flow": "Не удалось получить информацию о потоке аутентификации."
+    },
+    "AuthFooter": {
+      "about": "О программе",
+      "powered_by_matrix": "Работает на Matrix"
+    },
+    "SSOLogin": {
+      "continue_with_sso": "Продолжить через SSO",
+      "continue_with": "Продолжить с {{name}}"
+    },
+    "WelcomePage": {
+      "welcome_to_cinny": "Добро пожаловать в Cinny",
+      "subtitle": "Ещё один клиент Matrix.",
+      "source_code": "Исходный код",
+      "support": "Поддержка"
+    },
+    "SyncStatus": {
+      "connecting": "Подключение...",
+      "connection_lost_reconnecting": "Соединение потеряно! Переподключение...",
+      "connection_lost": "Соединение потеряно!"
+    },
+    "HomeTab": {
+      "mark_as_read": "Отметить как прочитанное",
+      "home": "Домой"
+    },
+    "SettingsTab": {
+      "user_settings": "Настройки пользователя"
+    },
+    "PasswordRegisterForm": {
+      "username": "Имя пользователя",
+      "password": "Пароль",
+      "confirm_password": "Подтвердите пароль",
+      "register_button": "Зарегистрироваться",
+      "password_mismatch": "Пароли не совпадают",
+      "invalid_username": "Неверное имя пользователя",
+      "invalid_password": "Пароль слишком короткий или ненадёжный"
+    },
+    "Home": {
+      "title": "Домой",
+      "mark_as_read": "Отметить как прочитанное",
+      "no_rooms": "Нет комнат",
+      "no_rooms_description": "У вас пока нет ни одной комнаты.",
+      "create_room": "Создать комнату",
+      "create_room_button": "Создать комнату",
+      "explore_community_rooms": "Исследовать комнаты сообщества",
+      "join_with_address": "Присоединиться по адресу",
+      "message_search": "Поиск сообщений",
+      "rooms": "Комнаты"
+    }
+  },
+  "Settings": {
+    "general": "Основные",
+    "account": "Аккаунт",
+    "notifications": "Уведомления",
+    "devices": "Устройства",
+    "emojis_stickers": "Эмодзи и стикеры",
+    "developer_tools": "Инструменты разработчика",
+    "about": "О программе",
+    "appearance": "Внешний вид",
+    "system_theme": "Системная тема",
+    "system_theme_description": "Выбирать светлую или тёмную тему на основе системных предпочтений.",
+    "theme": "Тема",
+    "theme_description": "Тема для использования, когда системная тема не включена.",
+    "monochrome_mode": "Монохромный режим",
+    "twitter_emoji": "Twitter Эмодзи",
+    "page_zoom": "Масштаб страницы",
+    "formatting": "Форматирование",
+    "year": "Год",
+    "month": "Месяц",
+    "day_of_month": "День месяца",
+    "day_of_week": "День недели",
+    "save": "Сохранить",
+    "date_format": "Формат даты",
+    "date_time": "Дата и время",
+    "24_hour_time_format": "24-часовой формат времени",
+    "editor": "Редактор",
+    "enter_for_newline": "Enter для новой строки",
+    "enter_for_newline_description": "Используйте Ctrl+ENTER для отправки сообщения, ENTER для новой строки.",
+    "markdown_formatting": "Форматирование Markdown",
+    "hide_typing_read_receipts": "Скрыть набор и чтение",
+    "hide_typing_read_receipts_description": "Отключить индикаторы набора текста и прочтения для защиты вашей конфиденциальности.",
+    "messages": "Сообщения",
+    "message_layout": "Макет сообщений",
+    "message_spacing": "Интервал сообщений",
+    "legacy_username_color": "Цвет имени пользователя (устаревший)",
+    "hide_membership_change": "Скрывать изменения участников",
+    "hide_profile_change": "Скрывать изменения профиля",
+    "disable_media_auto_load": "Отключить автозагрузку медиа",
+    "url_preview": "Предпросмотр URL",
+    "url_preview_encrypted_room": "Предпросмотр URL в зашифрованной комнате",
+    "show_hidden_events": "Показывать скрытые события"
+  },
+  "EmojiBoard": {
+    "sticker": "Стикер",
+    "emoji": "Эмодзи",
+    "recent": "Недавние",
+    "search_or_text_reaction": "Поиск или текстовая реакция",
+    "search": "Поиск",
+    "react": "Реакция",
+    "search_results": "Результаты поиска",
+    "no_results_found": "Ничего не найдено",
+    "no_sticker_packs": "Нет наборов стикеров!",
+    "add_stickers_from_settings": "Добавляйте стикеры в настройках пользователя, комнаты или пространства.",
+    "unknown_pack": "Неизвестный набор",
+    "personal_pack": "Личный набор",
+    "unknown": "Неизвестно"
+  },
+  "ClientRoot": {
+    "heating_up": "Запуск",
+    "clear_cache_reload": "Очистить кеш и перезагрузить",
+    "logout": "Выйти",
+    "failed_to_load": "Не удалось загрузить. {{error}}",
+    "failed_to_start": "Не удалось запустить. {{error}}",
+    "retry": "Повторить"
+  },
+  "EventReaders": {
+    "seen_by": "Видели"
+  },
+  "ImageEditor": {
+    "image_editor": "Редактор изображений",
+    "save": "Сохранить"
+  },
+  "ImagePackView": {
+    "emojis_and_stickers": "Эмодзи и стикеры"
+  },
+  "ImageViewer": {
+    "download": "Скачать"
+  },
+  "InviteUserPrompt": {
+    "invite": "Пригласить",
+    "user_id": "ID пользователя",
+    "username_server_placeholder": "@имя_пользователя:сервер",
+    "reason_optional": "Причина (опционально)",
+    "invite_button": "Пригласить"
+  },
+  "JoinAddressPrompt": {
+    "join_with_address": "Присоединиться по адресу",
+    "enter_public_address": "Введите публичный адрес для присоединения к сообществу. Формат адреса:",
+    "address": "Адрес",
+    "invalid_address": "Неверный адрес",
+    "open": "Открыть"
+  },
+  "LeaveRoomPrompt": {
+    "leave_room": "Покинуть комнату",
+    "confirm_leave": "Вы уверены, что хотите покинуть эту комнату?",
+    "failed_to_leave": "Не удалось покинуть комнату!",
+    "leaving": "Выход...",
+    "leave": "Покинуть"
+  },
+  "LeaveSpacePrompt": {
+    "leave_space": "Покинуть пространство",
+    "confirm_leave": "Вы уверены, что хотите покинуть это пространство?",
+    "failed_to_leave": "Не удалось покинуть пространство!",
+    "leaving": "Выход...",
+    "leave": "Покинуть"
+  },
+  "MsgTypeRenderers": {
+    "image": "Изображение",
+    "video": "Видео",
+    "audio": "Аудио",
+    "unnamed_file": "Файл без имени",
+    "file": "Файл",
+    "open_location": "Открыть местоположение",
+    "sticker": "Стикер"
+  },
+  "AccountDataEditor": {
+    "account_data": "Данные аккаунта",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "json_content": "JSON содержимое",
+    "edit": "Редактировать"
+  },
+  "Features": {
+    "CreateRoomForm": {
+      "access": "Доступ",
+      "name": "Название",
+      "topic_optional": "Тема (Опционально)",
+      "options": "Опции",
+      "advance_options": "Дополнительные опции",
+      "create": "Создать",
+      "encryption": "Сквозное шифрование",
+      "encryption_description": "После включения эту функцию нельзя отключить после создания комнаты.",
+      "knock_to_join": "Стучаться для входа",
+      "knock_to_join_description": "Любой может отправить запрос на присоединение к этой комнате.",
+      "allow_federation": "Разрешить федерацию",
+      "allow_federation_description": "Пользователи с других серверов могут присоединиться."
+    },
+    "CreateSpaceForm": {
+      "access": "Доступ",
+      "name": "Название",
+      "topic_optional": "Тема (Опционально)",
+      "options": "Опции",
+      "advance_options": "Дополнительные опции",
+      "create": "Создать",
+      "knock_to_join": "Стучаться для входа",
+      "knock_to_join_description": "Любой может отправить запрос на присоединение к этому пространству.",
+      "allow_federation": "Разрешить федерацию",
+      "allow_federation_description": "Пользователи с других серверов могут присоединиться."
+    }
+  }
+}

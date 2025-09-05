@@ -1,0 +1,352 @@
+{
+  "Organisms": {
+    "RoomCommon": {
+      "changed_room_name": "تم تغيير اسم الغرفة"
+    }
+  },
+  "Components": {
+    "PasswordStage": {
+      "account_password": "كلمة مرور الحساب",
+      "auth_instruction": "لتنفيذ هذا الإجراء، تحتاج إلى المصادقة عن طريق إدخال كلمة مرور حسابك.",
+      "password": "كلمة المرور",
+      "invalid_password": "كلمة مرور غير صالحة!",
+      "continue": "متابعة"
+    },
+    "EmailStage": {
+      "email": "البريد الإلكتروني",
+      "send_verification_email": "إرسال بريد التحقق",
+      "cancel": "إلغاء",
+      "verify_email": "التحقق من البريد الإلكتروني",
+      "failed_to_send": "فشل في إرسال طلب التحقق عبر البريد الإلكتروني.",
+      "verification_sent": "تم إرسال طلب التحقق",
+      "check_email": "يرجى التحقق من بريدك الإلكتروني \"{{email}}\" والتحقق قبل المتابعة.",
+      "continue": "متابعة",
+      "provide_email": "تقديم البريد الإلكتروني",
+      "please_provide_email": "يرجى تقديم بريد إلكتروني لإرسال طلب التحقق.",
+      "sending_verification": "جاري إرسال بريد التحقق..."
+    },
+    "ReCaptchaStage": {
+      "cancel": "إلغاء",
+      "invalid_data": "بيانات غير صالحة",
+      "no_valid_data": "لم يتم العثور على بيانات صالحة للمتابعة مع التحقق ReCAPTCHA.",
+      "check_box": "يرجى تحديد المربع أدناه للمتابعة."
+    },
+    "RegistrationTokenStage": {
+      "registration_token": "رمز التسجيل",
+      "retry": "إعادة المحاولة",
+      "cancel": "إلغاء",
+      "invalid_token": "رمز التسجيل المقدم غير صالح.",
+      "please_submit_token": "يرجى إرسال رمز التسجيل المقدم من قبل مسؤول الخادم الخاص بك."
+    },
+    "SSOStage": {
+      "sso_login": "تسجيل الدخول الموحد (SSO)",
+      "auth_instruction": "لتنفيذ هذا الإجراء، تحتاج إلى المصادقة من خلال تسجيل الدخول الموحد (SSO).",
+      "continue": "متابعة",
+      "continue_with_sso": "المتابعة باستخدام SSO"
+    },
+    "TermsStage": {
+      "retry": "إعادة المحاولة",
+      "cancel": "إلغاء",
+      "failed_to_submit": "فشل في إرسال قبول الشروط والأحكام."
+    },
+    "AdditionalCreatorInput": {
+      "founders": "المؤسسون",
+      "founders_description": "يمكن تعيين مستخدمين مميزين بصلاحيات خاصة عند الإنشاء. هؤلاء المستخدمون لديهم صلاحيات تحكم متقدمة ويمكن تعديلهم فقط أثناء الترقيات.",
+      "enter": "إدخال",
+      "username_placeholder": "@اسم المستخدم:الخادم",
+      "no_suggestions": "لا توجد اقتراحات",
+      "provide_user_id": "يرجى تقديم معرف المستخدم والضغط على Enter."
+    },
+    "CreateRoomAliasInput": {
+      "address_optional": "العنوان (اختياري)",
+      "pick_unique_address": "اختر عنوانًا فريدًا لجعلها قابلة للاكتشاف.",
+      "address_taken": "هذا العنوان محجوز مسبقًا. يرجى اختيار عنوان آخر."
+    },
+    "CreateRoomKindSelector": {
+      "restricted": "مقيد",
+      "restricted_description": "يمكن فقط لأعضاء المساحة الأصلية الانضمام.",
+      "private": "خاص",
+      "private_description": "يمكن فقط للأشخاص المدعوين الانضمام.",
+      "public": "عام",
+      "public_description": "يمكن لأي شخص لديه العنوان الانضمام."
+    },
+    "RoomVersionSelector": {
+      "version": "الإصدار",
+      "versions": "الإصدارات"
+    },
+    "Editor": {
+      "bold": "عريض",
+      "italic": "مائل",
+      "underline": "تحته خط",
+      "strike_through": "يتوسطه خط",
+      "inline_code": "رمز مضمن",
+      "spoiler": "سبويلر",
+      "block_quote": "اقتباس",
+      "block_code": "مقطع رمز",
+      "ordered_list": "قائمة مرتبة",
+      "unordered_list": "قائمة غير مرتبة",
+      "heading_1": "عنوان 1",
+      "heading_2": "عنوان 2",
+      "heading_3": "عنوان 3",
+      "exit_formatting": "خروج من التنسيق",
+      "disable_markdown": "تعطيل Markdown",
+      "enable_markdown": "تمكين Markdown"
+    }
+  },
+  "Pages": {
+    "Login": {
+      "login": "تسجيل الدخول",
+      "no_support": "هذا العميل لا يدعم تسجيل الدخول على خادم \"{{server}}\". لم يتم العثور على طرق تسجيل دخول تعتمد على كلمة المرور أو SSO.",
+      "no_account": "ليس لديك حساب؟",
+      "register": "تسجيل"
+    },
+    "PasswordLoginForm": {
+      "hint": "تلميح",
+      "username_hint": "اسم المستخدم:",
+      "matrix_id_hint": "معرف Matrix:",
+      "email_hint": "البريد الإلكتروني:",
+      "username": "اسم المستخدم",
+      "server_not_allowed": "نسخة العميل الخاصة بك لا تسمح بتسجيل الدخول باستخدام خوادم مخصصة.",
+      "failed_find_server": "فشل في العثور على خادم معرف Matrix الخاص بك.",
+      "password": "كلمة المرور",
+      "invalid_credentials": "اسم مستخدم أو كلمة مرور غير صحيحة.",
+      "account_deactivated": "تم إلغاء تنشيط هذا الحساب.",
+      "invalid_request": "فشل تسجيل الدخول. بعض بيانات طلبك غير صالحة.",
+      "rate_limited": "فشل تسجيل الدخول. تم تحديد معدل طلب تسجيل الدخول الخاص بك من قبل الخادم، يرجى المحاولة مرة أخرى لاحقًا.",
+      "unknown_error": "فشل تسجيل الدخول. سبب غير معروف.",
+      "forget_password": "نسيت كلمة المرور؟",
+      "login_button": "تسجيل الدخول"
+    },
+    "Register": {
+      "register": "تسجيل",
+      "have_account": "هل لديك حساب بالفعل؟",
+      "login": "تسجيل الدخول",
+      "registration_disabled": "التسجيل معطل على هذا الخادم.",
+      "rate_limited": "تم تحديد معدل طلباتك! يرجى المحاولة مرة أخرى لاحقًا.",
+      "invalid_request": "طلب غير صالح! فشل في الحصول على أي خيارات تسجيل.",
+      "not_support_registration": "هذا التطبيق لا يدعم التسجيل على هذا الخادم."
+    },
+    "ResetPassword": {
+      "reset_password": "إعادة تعيين كلمة المرور",
+      "remember_password": "تذكرت كلمة المرور؟",
+      "login": "تسجيل الدخول",
+      "reset_success": "تم إعادة تعيين كلمة المرور بنجاح. يرجى تسجيل الدخول باستخدام كلمة المرور الجديدة.",
+      "homeserver_email": "سيرسل لك الخادم الرئيسي {{server}} بريدًا إلكترونيًا لإعادة تعيين كلمة المرور.",
+      "email": "البريد الإلكتروني",
+      "new_password": "كلمة المرور الجديدة",
+      "confirm_password": "تأكيد كلمة المرور",
+      "reset_button": "إعادة تعيين كلمة المرور"
+    },
+    "ServerPicker": {
+      "homeserver_list": "قائمة الخوادم الرئيسية"
+    },
+    "AuthLayout": {
+      "homeserver": "الخادم الرئيسي",
+      "looking_for_homeserver": "جاري البحث عن الخادم الرئيسي...",
+      "failed_to_find_homeserver": "فشل في العثور على الخادم الرئيسي.",
+      "failed_to_connect_config": "فشل الاتصال. يبدو أن إعدادات الخادم الرئيسي التي تم العثور عليها {{host}} غير قابلة للاستخدام.",
+      "failed_to_connect_invalid": "فشل الاتصال. يبدو أن base_url لإعدادات الخادم الرئيسي غير صالح.",
+      "connecting_to": "جاري الاتصال بـ {{url}}",
+      "failed_to_connect": "فشل الاتصال. الخادم الرئيسي غير متاح حاليًا أو غير موجود.",
+      "loading_auth_flow": "جاري تحميل تدفق المصادقة...",
+      "failed_to_get_auth_flow": "فشل في الحصول على معلومات تدفق المصادقة."
+    },
+    "AuthFooter": {
+      "about": "حول",
+      "powered_by_matrix": "مدعوم بواسطة Matrix"
+    },
+    "SSOLogin": {
+      "continue_with_sso": "المتابعة باستخدام SSO",
+      "continue_with": "المتابعة باستخدام {{name}}"
+    },
+    "WelcomePage": {
+      "welcome_to_cinny": "مرحبًا بك في Cinny",
+      "subtitle": "عميل Matrix آخر.",
+      "source_code": "الكود المصدري",
+      "support": "الدعم"
+    },
+    "SyncStatus": {
+      "connecting": "جاري الاتصال...",
+      "connection_lost_reconnecting": "فقدان الاتصال! جاري إعادة الاتصال...",
+      "connection_lost": "فقدان الاتصال!"
+    },
+    "HomeTab": {
+      "mark_as_read": "وضع علامة كمقروء",
+      "home": "الرئيسية"
+    },
+    "SettingsTab": {
+      "user_settings": "إعدادات المستخدم"
+    },
+    "PasswordRegisterForm": {
+      "username": "اسم المستخدم",
+      "password": "كلمة المرور",
+      "confirm_password": "تأكيد كلمة المرور",
+      "register_button": "تسجيل",
+      "password_mismatch": "كلمة المرور غير متطابقة",
+      "invalid_username": "اسم مستخدم غير صالح",
+      "invalid_password": "كلمة المرور قصيرة جدًا أو ضعيفة"
+    },
+    "Home": {
+      "title": "الرئيسية",
+      "mark_as_read": "وضع علامة كمقروء",
+      "no_rooms": "لا توجد غرف",
+      "no_rooms_description": "ليس لديك أي غرف حتى الآن.",
+      "create_room": "إنشاء غرفة",
+      "create_room_button": "إنشاء غرفة",
+      "explore_community_rooms": "استكشاف غرف المجتمع",
+      "join_with_address": "الانضمام باستخدام العنوان",
+      "message_search": "بحث في الرسائل",
+      "rooms": "الغرف"
+    }
+  },
+  "Settings": {
+    "general": "عام",
+    "account": "الحساب",
+    "notifications": "الإشعارات",
+    "devices": "الأجهزة",
+    "emojis_stickers": "الرموز التعبيرية والملصقات",
+    "developer_tools": "أدوات المطور",
+    "about": "حول",
+    "appearance": "المظهر",
+    "system_theme": "سمة النظام",
+    "system_theme_description": "اختر السمة الفاتحة أو الداكنة بناءً على تفضيلات النظام.",
+    "theme": "السمة",
+    "theme_description": "السمة التي سيتم استخدامها عندما لا تكون سمة النظام ممكّنة.",
+    "monochrome_mode": "وضع أحادي اللون",
+    "twitter_emoji": "رموز Twitter التعبيرية",
+    "page_zoom": "تكبير الصفحة",
+    "formatting": "التنسيق",
+    "year": "السنة",
+    "month": "الشهر",
+    "day_of_month": "يوم الشهر",
+    "day_of_week": "يوم الأسبوع",
+    "save": "حفظ",
+    "date_format": "تنسيق التاريخ",
+    "date_time": "التاريخ والوقت",
+    "24_hour_time_format": "تنسيق الوقت 24 ساعة",
+    "editor": "المحرر",
+    "enter_for_newline": "Enter للسطر الجديد",
+    "enter_for_newline_description": "استخدم Ctrl+ENTER لإرسال الرسالة، ENTER للسطر الجديد.",
+    "markdown_formatting": "تنسيق Markdown",
+    "hide_typing_read_receipts": "إخفاء الكتابة وإيصالات القراءة",
+    "hide_typing_read_receipts_description": "قم بإيقاف تشغيل إشعارات الكتابة وإيصالات القراءة لحماية خصوصيتك.",
+    "messages": "الرسائل",
+    "message_layout": "تخطيط الرسالة",
+    "message_spacing": "تباعد الرسائل",
+    "legacy_username_color": "لون اسم المستخدم القديم",
+    "hide_membership_change": "إخفاء تغيير العضوية",
+    "hide_profile_change": "إخفاء تغيير الملف الشخصي",
+    "disable_media_auto_load": "تعطيل التحميل التلقائي للوسائط",
+    "url_preview": "معاينة الرابط",
+    "url_preview_encrypted_room": "معاينة الرابط في الغرفة المشفرة",
+    "show_hidden_events": "إظهار الأحداث المخفية"
+  },
+  "EmojiBoard": {
+    "sticker": "ملصق",
+    "emoji": "رمز تعبيري",
+    "recent": "مؤخرًا",
+    "search_or_text_reaction": "بحث أو تفاعل نصي",
+    "search": "بحث",
+    "react": "تفاعل",
+    "search_results": "نتائج البحث",
+    "no_results_found": "لم يتم العثور على نتائج",
+    "no_sticker_packs": "لا توجد حزم ملصقات!",
+    "add_stickers_from_settings": "أضف ملصقات من إعدادات المستخدم أو الغرفة أو المساحة.",
+    "unknown_pack": "حزمة غير معروفة",
+    "personal_pack": "حزمة شخصية",
+    "unknown": "غير معروف"
+  },
+  "ClientRoot": {
+    "heating_up": "جاري التحميل",
+    "clear_cache_reload": "مسح الذاكرة المؤقتة وإعادة التحميل",
+    "logout": "تسجيل الخروج",
+    "failed_to_load": "فشل في التحميل. {{error}}",
+    "failed_to_start": "فشل في البدء. {{error}}",
+    "retry": "إعادة المحاولة"
+  },
+  "EventReaders": {
+    "seen_by": "تمت رؤيته بواسطة"
+  },
+  "ImageEditor": {
+    "image_editor": "محرر الصور",
+    "save": "حفظ"
+  },
+  "ImagePackView": {
+    "emojis_and_stickers": "الرموز التعبيرية والملصقات"
+  },
+  "ImageViewer": {
+    "download": "تنزيل"
+  },
+  "InviteUserPrompt": {
+    "invite": "دعوة",
+    "user_id": "معرف المستخدم",
+    "username_server_placeholder": "@اسم المستخدم:الخادم",
+    "reason_optional": "السبب (اختياري)",
+    "invite_button": "دعوة"
+  },
+  "JoinAddressPrompt": {
+    "join_with_address": "الانضمام باستخدام العنوان",
+    "enter_public_address": "أدخل العنوان العام للانضمام إلى المجتمع. تنسيق العنوان:",
+    "address": "العنوان",
+    "invalid_address": "عنوان غير صالح",
+    "open": "فتح"
+  },
+  "LeaveRoomPrompt": {
+    "leave_room": "مغادرة الغرفة",
+    "confirm_leave": "هل أنت متأكد من أنك تريد مغادرة هذه الغرفة؟",
+    "failed_to_leave": "فشل في مغادرة الغرفة!",
+    "leaving": "جاري المغادرة...",
+    "leave": "مغادرة"
+  },
+  "LeaveSpacePrompt": {
+    "leave_space": "مغادرة المساحة",
+    "confirm_leave": "هل أنت متأكد من أنك تريد مغادرة هذه المساحة؟",
+    "failed_to_leave": "فشل في مغادرة المساحة!",
+    "leaving": "جاري المغادرة...",
+    "leave": "مغادرة"
+  },
+  "MsgTypeRenderers": {
+    "image": "صورة",
+    "video": "فيديو",
+    "audio": "صوت",
+    "unnamed_file": "ملف غير مسمى",
+    "file": "ملف",
+    "open_location": "فتح الموقع",
+    "sticker": "ملصق"
+  },
+  "AccountDataEditor": {
+    "account_data": "بيانات الحساب",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "json_content": "محتوى JSON",
+    "edit": "تحرير"
+  },
+  "Features": {
+    "CreateRoomForm": {
+      "access": "الوصول",
+      "name": "الاسم",
+      "topic_optional": "الموضوع (اختياري)",
+      "options": "خيارات",
+      "advance_options": "خيارات متقدمة",
+      "create": "إنشاء",
+      "encryption": "التشفير من طرف إلى طرف",
+      "encryption_description": "بمجرد تمكين هذه الميزة، لا يمكن تعطيلها بعد إنشاء الغرفة.",
+      "knock_to_join": "الطرق للانضمام",
+      "knock_to_join_description": "يمكن لأي شخص إرسال طلب للانضمام إلى هذه الغرفة.",
+      "allow_federation": "السماح بالاتحاد",
+      "allow_federation_description": "يمكن للمستخدمين من خوادم أخرى الانضمام."
+    },
+    "CreateSpaceForm": {
+      "access": "الوصول",
+      "name": "الاسم",
+      "topic_optional": "الموضوع (اختياري)",
+      "options": "خيارات",
+      "advance_options": "خيارات متقدمة",
+      "create": "إنشاء",
+      "knock_to_join": "الطرق للانضمام",
+      "knock_to_join_description": "يمكن لأي شخص إرسال طلب للانضمام إلى هذه المساحة.",
+      "allow_federation": "السماح بالاتحاد",
+      "allow_federation_description": "يمكن للمستخدمين من خوادم أخرى الانضمام."
+    }
+  }
+}

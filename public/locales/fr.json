@@ -1,0 +1,352 @@
+{
+  "Organisms": {
+    "RoomCommon": {
+      "changed_room_name": " a modifié le nom de la salle"
+    }
+  },
+  "Components": {
+    "PasswordStage": {
+      "account_password": "Mot de passe du compte",
+      "auth_instruction": "Pour effectuer cette action, vous devez vous authentifier en entrant le mot de passe de votre compte.",
+      "password": "Mot de passe",
+      "invalid_password": "Mot de passe invalide !",
+      "continue": "Continuer"
+    },
+    "EmailStage": {
+      "email": "E-mail",
+      "send_verification_email": "Envoyer l'e-mail de vérification",
+      "cancel": "Annuler",
+      "verify_email": "Vérifier l'e-mail",
+      "failed_to_send": "Échec de l'envoi de la demande d'e-mail de vérification.",
+      "verification_sent": "Demande de vérification envoyée",
+      "check_email": "Veuillez vérifier votre e-mail \"{{email}}\" et valider avant de continuer.",
+      "continue": "Continuer",
+      "provide_email": "Fournir un e-mail",
+      "please_provide_email": "Veuillez fournir un e-mail pour envoyer la demande de vérification.",
+      "sending_verification": "Envoi de l'e-mail de vérification..."
+    },
+    "ReCaptchaStage": {
+      "cancel": "Annuler",
+      "invalid_data": "Données invalides",
+      "no_valid_data": "Aucune donnée valide trouvée pour procéder à la vérification ReCAPTCHA.",
+      "check_box": "Veuillez cocher la case ci-dessous pour continuer."
+    },
+    "RegistrationTokenStage": {
+      "registration_token": "Jeton d'inscription",
+      "retry": "Réessayer",
+      "cancel": "Annuler",
+      "invalid_token": "Le jeton d'inscription fourni est invalide.",
+      "please_submit_token": "Veuillez soumettre le jeton d'inscription fourni par votre administrateur de serveur."
+    },
+    "SSOStage": {
+      "sso_login": "Connexion SSO",
+      "auth_instruction": "Pour effectuer cette action, vous devez vous authentifier via une connexion SSO.",
+      "continue": "Continuer",
+      "continue_with_sso": "Continuer avec SSO"
+    },
+    "TermsStage": {
+      "retry": "Réessayer",
+      "cancel": "Annuler",
+      "failed_to_submit": "Échec de la soumission de l'acceptation des conditions générales."
+    },
+    "AdditionalCreatorInput": {
+      "founders": "Fondateurs",
+      "founders_description": "Des utilisateurs privilégiés spéciaux peuvent être assignés lors de la création. Ces utilisateurs ont des permissions de contrôle élevées et ne peuvent être modifiés que pendant les mises à niveau.",
+      "enter": "Entrer",
+      "username_placeholder": "@utilisateur:serveur",
+      "no_suggestions": "Aucune suggestion",
+      "provide_user_id": "Veuillez fournir un ID utilisateur et appuyer sur Entrée."
+    },
+    "CreateRoomAliasInput": {
+      "address_optional": "Adresse (optionnelle)",
+      "pick_unique_address": "Choisissez une adresse unique pour la rendre découvrable.",
+      "address_taken": "Cette adresse est déjà prise. Veuillez en choisir une autre."
+    },
+    "CreateRoomKindSelector": {
+      "restricted": "Restreint",
+      "restricted_description": "Seuls les membres de l'espace parent peuvent rejoindre.",
+      "private": "Privé",
+      "private_description": "Seules les personnes invitées peuvent rejoindre.",
+      "public": "Public",
+      "public_description": "Toute personne ayant l'adresse peut rejoindre."
+    },
+    "RoomVersionSelector": {
+      "version": "Version",
+      "versions": "Versions"
+    },
+    "Editor": {
+      "bold": "Gras",
+      "italic": "Italique",
+      "underline": "Souligné",
+      "strike_through": "Barré",
+      "inline_code": "Code en ligne",
+      "spoiler": "Spoiler",
+      "block_quote": "Citation",
+      "block_code": "Bloc de code",
+      "ordered_list": "Liste ordonnée",
+      "unordered_list": "Liste non ordonnée",
+      "heading_1": "Titre 1",
+      "heading_2": "Titre 2",
+      "heading_3": "Titre 3",
+      "exit_formatting": "Quitter le formatage",
+      "disable_markdown": "Désactiver Markdown",
+      "enable_markdown": "Activer Markdown"
+    }
+  },
+  "Pages": {
+    "Login": {
+      "login": "Connexion",
+      "no_support": "Ce client ne prend pas en charge la connexion sur le serveur \"{{server}}\". Aucune méthode de connexion par mot de passe ou SSO trouvée.",
+      "no_account": "Vous n'avez pas de compte ?",
+      "register": "S'inscrire"
+    },
+    "PasswordLoginForm": {
+      "hint": "Indice",
+      "username_hint": "Nom d'utilisateur :",
+      "matrix_id_hint": "ID Matrix :",
+      "email_hint": "E-mail :",
+      "username": "Nom d'utilisateur",
+      "server_not_allowed": "Votre instance cliente ne permet pas la connexion avec des serveurs personnalisés.",
+      "failed_find_server": "Échec de la recherche de votre serveur d'ID Matrix.",
+      "password": "Mot de passe",
+      "invalid_credentials": "Nom d'utilisateur ou mot de passe invalide.",
+      "account_deactivated": "Ce compte a été désactivé.",
+      "invalid_request": "Échec de la connexion. Certaines de vos données de requête sont invalides.",
+      "rate_limited": "Échec de la connexion. Votre demande de connexion a été limitée par le serveur, veuillez réessayer plus tard.",
+      "unknown_error": "Échec de la connexion. Raison inconnue.",
+      "forget_password": "Mot de passe oublié ?",
+      "login_button": "Se connecter"
+    },
+    "Register": {
+      "register": "S'inscrire",
+      "have_account": "Vous avez déjà un compte ?",
+      "login": "Se connecter",
+      "registration_disabled": "L'inscription est désactivée sur ce serveur.",
+      "rate_limited": "Vous êtes limité ! Veuillez réessayer plus tard.",
+      "invalid_request": "Requête invalide ! Impossible d'obtenir les options d'inscription.",
+      "not_support_registration": "Cette application ne prend pas en charge l'inscription sur ce serveur."
+    },
+    "ResetPassword": {
+      "reset_password": "Réinitialiser le mot de passe",
+      "remember_password": "Vous vous souvenez du mot de passe ?",
+      "login": "Se connecter",
+      "reset_success": "Le mot de passe a été réinitialisé avec succès. Veuillez vous connecter avec votre nouveau mot de passe.",
+      "homeserver_email": "Le serveur {{server}} vous enverra un e-mail pour réinitialiser votre mot de passe.",
+      "email": "E-mail",
+      "new_password": "Nouveau mot de passe",
+      "confirm_password": "Confirmer le mot de passe",
+      "reset_button": "Réinitialiser le mot de passe"
+    },
+    "ServerPicker": {
+      "homeserver_list": "Liste des serveurs"
+    },
+    "AuthLayout": {
+      "homeserver": "Serveur",
+      "looking_for_homeserver": "Recherche du serveur...",
+      "failed_to_find_homeserver": "Échec de la recherche du serveur.",
+      "failed_to_connect_config": "Échec de la connexion. La configuration du serveur trouvée {{host}} semble inutilisable.",
+      "failed_to_connect_invalid": "Échec de la connexion. L'URL de base de la configuration du serveur semble invalide.",
+      "connecting_to": "Connexion à {{url}}",
+      "failed_to_connect": "Échec de la connexion. Le serveur est actuellement indisponible ou n'existe pas.",
+      "loading_auth_flow": "Chargement du flux d'authentification...",
+      "failed_to_get_auth_flow": "Échec de l'obtention des informations du flux d'authentification."
+    },
+    "AuthFooter": {
+      "about": "À propos",
+      "powered_by_matrix": "Propulsé par Matrix"
+    },
+    "SSOLogin": {
+      "continue_with_sso": "Continuer avec SSO",
+      "continue_with": "Continuer avec {{name}}"
+    },
+    "WelcomePage": {
+      "welcome_to_cinny": "Bienvenue sur Cinny",
+      "subtitle": "Encore un client Matrix.",
+      "source_code": "Code source",
+      "support": "Support"
+    },
+    "SyncStatus": {
+      "connecting": "Connexion...",
+      "connection_lost_reconnecting": "Connexion perdue ! Reconnexion...",
+      "connection_lost": "Connexion perdue !"
+    },
+    "HomeTab": {
+      "mark_as_read": "Marquer comme lu",
+      "home": "Accueil"
+    },
+    "SettingsTab": {
+      "user_settings": "Paramètres utilisateur"
+    },
+    "PasswordRegisterForm": {
+      "username": "Nom d'utilisateur",
+      "password": "Mot de passe",
+      "confirm_password": "Confirmer le mot de passe",
+      "register_button": "S'inscrire",
+      "password_mismatch": "Les mots de passe ne correspondent pas",
+      "invalid_username": "Nom d'utilisateur invalide",
+      "invalid_password": "Le mot de passe est trop court ou trop faible"
+    },
+    "Home": {
+      "title": "Accueil",
+      "mark_as_read": "Marquer comme lu",
+      "no_rooms": "Aucune salle",
+      "no_rooms_description": "Vous n'avez encore aucune salle.",
+      "create_room": "Créer une salle",
+      "create_room_button": "Créer une salle",
+      "explore_community_rooms": "Explorer les salles communautaires",
+      "join_with_address": "Rejoindre avec une adresse",
+      "message_search": "Recherche de messages",
+      "rooms": "Salles"
+    }
+  },
+  "Settings": {
+    "general": "Général",
+    "account": "Compte",
+    "notifications": "Notifications",
+    "devices": "Appareils",
+    "emojis_stickers": "Émojis & Autocollants",
+    "developer_tools": "Outils de développement",
+    "about": "À propos",
+    "appearance": "Apparence",
+    "system_theme": "Thème système",
+    "system_theme_description": "Choisir le thème clair ou sombre en fonction des préférences système.",
+    "theme": "Thème",
+    "theme_description": "Thème à utiliser lorsque le thème système n'est pas activé.",
+    "monochrome_mode": "Mode monochrome",
+    "twitter_emoji": "Émojis Twitter",
+    "page_zoom": "Zoom de la page",
+    "formatting": "Formatage",
+    "year": "Année",
+    "month": "Mois",
+    "day_of_month": "Jour du mois",
+    "day_of_week": "Jour de la semaine",
+    "save": "Sauvegarder",
+    "date_format": "Format de date",
+    "date_time": "Date & Heure",
+    "24_hour_time_format": "Format 24 heures",
+    "editor": "Éditeur",
+    "enter_for_newline": "Entrée pour nouvelle ligne",
+    "enter_for_newline_description": "Utiliser Ctrl+ENTRÉE pour envoyer un message, ENTRÉE pour une nouvelle ligne.",
+    "markdown_formatting": "Formatage Markdown",
+    "hide_typing_read_receipts": "Masquer la saisie & les reçus de lecture",
+    "hide_typing_read_receipts_description": "Désactiver les indicateurs de saisie et les reçus de lecture pour protéger votre vie privée.",
+    "messages": "Messages",
+    "message_layout": "Disposition des messages",
+    "message_spacing": "Espacement des messages",
+    "legacy_username_color": "Couleur d'utilisateur héritée",
+    "hide_membership_change": "Masquer les changements d'adhésion",
+    "hide_profile_change": "Masquer les changements de profil",
+    "disable_media_auto_load": "Désactiver le chargement automatique des médias",
+    "url_preview": "Aperçu des URL",
+    "url_preview_encrypted_room": "Aperçu des URL en salle chiffrée",
+    "show_hidden_events": "Afficher les événements masqués"
+  },
+  "EmojiBoard": {
+    "sticker": "Autocollant",
+    "emoji": "Émoji",
+    "recent": "Récent",
+    "search_or_text_reaction": "Rechercher ou réaction texte",
+    "search": "Rechercher",
+    "react": "Réagir",
+    "search_results": "Résultats de recherche",
+    "no_results_found": "Aucun résultat trouvé",
+    "no_sticker_packs": "Aucun pack d'autocollants !",
+    "add_stickers_from_settings": "Ajoutez des autocollants depuis les paramètres utilisateur, de salle ou d'espace.",
+    "unknown_pack": "Pack inconnu",
+    "personal_pack": "Pack personnel",
+    "unknown": "Inconnu"
+  },
+  "ClientRoot": {
+    "heating_up": "Chauffage",
+    "clear_cache_reload": "Vider le cache et recharger",
+    "logout": "Se déconnecter",
+    "failed_to_load": "Échec du chargement. {{error}}",
+    "failed_to_start": "Échec du démarrage. {{error}}",
+    "retry": "Réessayer"
+  },
+  "EventReaders": {
+    "seen_by": "Vu par"
+  },
+  "ImageEditor": {
+    "image_editor": "Éditeur d'image",
+    "save": "Sauvegarder"
+  },
+  "ImagePackView": {
+    "emojis_and_stickers": "Émojis & Autocollants"
+  },
+  "ImageViewer": {
+    "download": "Télécharger"
+  },
+  "InviteUserPrompt": {
+    "invite": "Inviter",
+    "user_id": "ID utilisateur",
+    "username_server_placeholder": "@utilisateur:serveur",
+    "reason_optional": "Raison (optionnelle)",
+    "invite_button": "Inviter"
+  },
+  "JoinAddressPrompt": {
+    "join_with_address": "Rejoindre avec une adresse",
+    "enter_public_address": "Entrez une adresse publique pour rejoindre la communauté. Format d'adresse :",
+    "address": "Adresse",
+    "invalid_address": "Adresse invalide",
+    "open": "Ouvrir"
+  },
+  "LeaveRoomPrompt": {
+    "leave_room": "Quitter la salle",
+    "confirm_leave": "Êtes-vous sûr de vouloir quitter cette salle ?",
+    "failed_to_leave": "Échec de la sortie de la salle !",
+    "leaving": "Sortie...",
+    "leave": "Quitter"
+  },
+  "LeaveSpacePrompt": {
+    "leave_space": "Quitter l'espace",
+    "confirm_leave": "Êtes-vous sûr de vouloir quitter cet espace ?",
+    "failed_to_leave": "Échec de la sortie de l'espace !",
+    "leaving": "Sortie...",
+    "leave": "Quitter"
+  },
+  "MsgTypeRenderers": {
+    "image": "Image",
+    "video": "Vidéo",
+    "audio": "Audio",
+    "unnamed_file": "Fichier sans nom",
+    "file": "Fichier",
+    "open_location": "Ouvrir l'emplacement",
+    "sticker": "Autocollant"
+  },
+  "AccountDataEditor": {
+    "account_data": "Données du compte",
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "json_content": "Contenu JSON",
+    "edit": "Modifier"
+  },
+  "Features": {
+    "CreateRoomForm": {
+      "access": "Accès",
+      "name": "Nom",
+      "topic_optional": "Sujet (Optionnel)",
+      "options": "Options",
+      "advance_options": "Options avancées",
+      "create": "Créer",
+      "encryption": "Chiffrement de bout en bout",
+      "encryption_description": "Une fois cette fonction activée, elle ne peut pas être désactivée après la création de la salle.",
+      "knock_to_join": "Frapper pour rejoindre",
+      "knock_to_join_description": "Tout le monde peut envoyer une demande pour rejoindre cette salle.",
+      "allow_federation": "Autoriser la fédération",
+      "allow_federation_description": "Les utilisateurs d'autres serveurs peuvent rejoindre."
+    },
+    "CreateSpaceForm": {
+      "access": "Accès",
+      "name": "Nom",
+      "topic_optional": "Sujet (Optionnel)",
+      "options": "Options",
+      "advance_options": "Options avancées",
+      "create": "Créer",
+      "knock_to_join": "Frapper pour rejoindre",
+      "knock_to_join_description": "Tout le monde peut envoyer une demande pour rejoindre cet espace.",
+      "allow_federation": "Autoriser la fédération",
+      "allow_federation_description": "Les utilisateurs d'autres serveurs peuvent rejoindre."
+    }
+  }
+}

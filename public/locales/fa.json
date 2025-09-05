@@ -1,0 +1,352 @@
+{
+  "Organisms": {
+    "RoomCommon": {
+      "changed_room_name": " نام اتاق را تغییر داد"
+    }
+  },
+  "Components": {
+    "PasswordStage": {
+      "account_password": "رمز عبور حساب",
+      "auth_instruction": "برای انجام این عمل، باید با وارد کردن رمز عبور حساب خود، هویت‌سنجی کنید.",
+      "password": "رمز عبور",
+      "invalid_password": "رمز عبور نامعتبر!",
+      "continue": "ادامه"
+    },
+    "EmailStage": {
+      "email": "ایمیل",
+      "send_verification_email": "ارسال ایمیل تأیید",
+      "cancel": "لغو",
+      "verify_email": "تأیید ایمیل",
+      "failed_to_send": "درخواست ارسال ایمیل تأیید ناموفق بود.",
+      "verification_sent": "درخواست تأیید ارسال شد",
+      "check_email": "لطفاً ایمیل خود \"{{email}}\" را بررسی کرده و قبل از ادامه، تأیید کنید.",
+      "continue": "ادامه",
+      "provide_email": "ارائه ایمیل",
+      "please_provide_email": "لطفاً یک ایمیل برای ارسال درخواست تأیید ارائه دهید.",
+      "sending_verification": "در حال ارسال ایمیل تأیید..."
+    },
+    "ReCaptchaStage": {
+      "cancel": "لغو",
+      "invalid_data": "داده نامعتبر",
+      "no_valid_data": "هیچ داده معتبری برای ادامه فرآیند تأیید ReCAPTCHA یافت نشد.",
+      "check_box": "لطفاً کادر زیر را برای ادامه علامت بزنید."
+    },
+    "RegistrationTokenStage": {
+      "registration_token": "توکن ثبت‌نام",
+      "retry": "تلاش مجدد",
+      "cancel": "لغو",
+      "invalid_token": "توکن ثبت‌نام ارائه شده نامعتبر است.",
+      "please_submit_token": "لطفاً توکن ثبت‌نام ارائه شده توسط مدیر سرور خود را ارسال کنید."
+    },
+    "SSOStage": {
+      "sso_login": "ورود SSO",
+      "auth_instruction": "برای انجام این عمل، باید از طریق ورود SSO هویت‌سنجی کنید.",
+      "continue": "ادامه",
+      "continue_with_sso": "ادامه با SSO"
+    },
+    "TermsStage": {
+      "retry": "تلاش مجدد",
+      "cancel": "لغو",
+      "failed_to_submit": "ارسال پذیرش قوانین و مقررات ناموفق بود."
+    },
+    "AdditionalCreatorInput": {
+      "founders": "بنیان‌گذاران",
+      "founders_description": "کاربران دارای امتیاز ویژه می‌توانند در زمان ایجاد تعیین شوند. این کاربران دارای مجوزهای کنترل سطح بالا هستند و فقط در طول ارتقا قابل تغییر هستند.",
+      "enter": "وارد کردن",
+      "username_placeholder": "@username:server",
+      "no_suggestions": "پیشنهادی وجود ندارد",
+      "provide_user_id": "لطفاً شناسه کاربری را ارائه داده و Enter بزنید."
+    },
+    "CreateRoomAliasInput": {
+      "address_optional": "آدرس (اختیاری)",
+      "pick_unique_address": "یک آدرس یکتا انتخاب کنید تا قابل کشف باشد.",
+      "address_taken": "این آدرس قبلاً گرفته شده است. لطفاً آدرس دیگری انتخاب کنید."
+    },
+    "CreateRoomKindSelector": {
+      "restricted": "محدود",
+      "restricted_description": "فقط اعضای فضای والد می‌توانند بپیوندند.",
+      "private": "خصوصی",
+      "private_description": "فقط افراد دعوت شده می‌توانند بپیوندند.",
+      "public": "عمومی",
+      "public_description": "هرکسی که آدرس را داشته باشد می‌تواند بپیوندد."
+    },
+    "RoomVersionSelector": {
+      "version": "نسخه",
+      "versions": "نسخه‌ها"
+    },
+    "Editor": {
+      "bold": "پررنگ",
+      "italic": "مورب",
+      "underline": "زیرخط",
+      "strike_through": "خط‌خورده",
+      "inline_code": "کد درون خطی",
+      "spoiler": "اسپویلر",
+      "block_quote": "نقل قول بلوکی",
+      "block_code": "بلوک کد",
+      "ordered_list": "لیست مرتب‌شده",
+      "unordered_list": "لیست نامرتب",
+      "heading_1": "سرتیتر ۱",
+      "heading_2": "سرتیتر ۲",
+      "heading_3": "سرتیتر ۳",
+      "exit_formatting": "خروج از قالب‌بندی",
+      "disable_markdown": "غیرفعال کردن Markdown",
+      "enable_markdown": "فعال کردن Markdown"
+    }
+  },
+  "Pages": {
+    "Login": {
+      "login": "ورود",
+      "no_support": "این کلاینت از ورود در سرور \"{{server}}\" پشتیبانی نمی‌کند. هیچ روش ورود مبتنی بر رمز عبور و SSO یافت نشد.",
+      "no_account": "حساب کاربری ندارید؟",
+      "register": "ثبت‌نام"
+    },
+    "PasswordLoginForm": {
+      "hint": "راهنما",
+      "username_hint": "نام کاربری:",
+      "matrix_id_hint": "شناسه ماتریکس:",
+      "email_hint": "ایمیل:",
+      "username": "نام کاربری",
+      "server_not_allowed": "نمونه کلاینت شما اجازه ورود با سرورهای دلخواه را نمی‌دهد.",
+      "failed_find_server": "یافتن سرور شناسه ماتریکس شما ناموفق بود.",
+      "password": "رمز عبور",
+      "invalid_credentials": "نام کاربری یا رمز عبور نامعتبر.",
+      "account_deactivated": "این حساب غیرفعال شده است.",
+      "invalid_request": "ورود ناموفق بود. برخی از داده‌های درخواست شما نامعتبر است.",
+      "rate_limited": "ورود ناموفق بود. درخواست ورود شما توسط سرور محدود شده است، لطفاً بعداً تلاش کنید.",
+      "unknown_error": "ورود ناموفق بود. دلیل نامعلوم.",
+      "forget_password": "رمز عبور را فراموش کرده‌اید؟",
+      "login_button": "ورود"
+    },
+    "Register": {
+      "register": "ثبت‌نام",
+      "have_account": "قبلاً حساب کاربری دارید؟",
+      "login": "ورود",
+      "registration_disabled": "ثبت‌نام در این سرور غیرفعال است.",
+      "rate_limited": "شما محدود شده‌اید! لطفاً بعداً تلاش کنید.",
+      "invalid_request": "درخواست نامعتبر! دریافت گزینه‌های ثبت‌نام ناموفق بود.",
+      "not_support_registration": "این برنامه از ثبت‌نام در این سرور پشتیبانی نمی‌کند."
+    },
+    "ResetPassword": {
+      "reset_password": "بازنشانی رمز عبور",
+      "remember_password": "رمز عبور را به خاطر دارید؟",
+      "login": "ورود",
+      "reset_success": "رمز عبور با موفقیت بازنشانی شد. لطفاً با رمز عبور جدید خود وارد شوید.",
+      "homeserver_email": "سرور {{server}} برای بازنشانی رمز عبور، ایمیلی برای شما ارسال خواهد کرد.",
+      "email": "ایمیل",
+      "new_password": "رمز عبور جدید",
+      "confirm_password": "تأیید رمز عبور",
+      "reset_button": "بازنشانی رمز عبور"
+    },
+    "ServerPicker": {
+      "homeserver_list": "فهرست سرورها"
+    },
+    "AuthLayout": {
+      "homeserver": "سرور",
+      "looking_for_homeserver": "در حال جستجوی سرور...",
+      "failed_to_find_homeserver": "یافتن سرور ناموفق بود.",
+      "failed_to_connect_config": "اتصال ناموفق بود. پیکربندی سرور یافت شده {{host}} غیرقابل استفاده به نظر می‌رسد.",
+      "failed_to_connect_invalid": "اتصال ناموفق بود. base_url پیکربندی سرور نامعتبر به نظر می‌رسد.",
+      "connecting_to": "در حال اتصال به {{url}}",
+      "failed_to_connect": "اتصال ناموفق بود. سرور در حال حاضر در دسترس نیست یا وجود ندارد.",
+      "loading_auth_flow": "در حال بارگذاری فرآیند هویت‌سنجی...",
+      "failed_to_get_auth_flow": "دریافت اطلاعات فرآیند هویت‌سنجی ناموفق بود."
+    },
+    "AuthFooter": {
+      "about": "درباره",
+      "powered_by_matrix": "قدرت گرفته از ماتریکس"
+    },
+    "SSOLogin": {
+      "continue_with_sso": "ادامه با SSO",
+      "continue_with": "ادامه با {{name}}"
+    },
+    "WelcomePage": {
+      "welcome_to_cinny": "به سینی خوش آمدید",
+      "subtitle": "یک کلاینت ماتریکس دیگر.",
+      "source_code": "کد منبع",
+      "support": "پشتیبانی"
+    },
+    "SyncStatus": {
+      "connecting": "در حال اتصال...",
+      "connection_lost_reconnecting": "اتصال قطع شد! در حال اتصال مجدد...",
+      "connection_lost": "اتصال قطع شد!"
+    },
+    "HomeTab": {
+      "mark_as_read": "علامت به عنوان خوانده شده",
+      "home": "خانه"
+    },
+    "SettingsTab": {
+      "user_settings": "تنظیمات کاربر"
+    },
+    "PasswordRegisterForm": {
+      "username": "نام کاربری",
+      "password": "رمز عبور",
+      "confirm_password": "تأیید رمز عبور",
+      "register_button": "ثبت‌نام",
+      "password_mismatch": "عدم تطابق رمز عبور",
+      "invalid_username": "نام کاربری نامعتبر",
+      "invalid_password": "رمز عبور بسیار کوتاه یا ضعیف است"
+    },
+    "Home": {
+      "title": "خانه",
+      "mark_as_read": "علامت به عنوان خوانده شده",
+      "no_rooms": "اتاقی وجود ندارد",
+      "no_rooms_description": "شما هنوز هیچ اتاقی ندارید.",
+      "create_room": "ایجاد اتاق",
+      "create_room_button": "ایجاد اتاق",
+      "explore_community_rooms": "کاوش اتاق‌های انجمن",
+      "join_with_address": "عضویت با آدرس",
+      "message_search": "جستجوی پیام",
+      "rooms": "اتاق‌ها"
+    }
+  },
+  "Settings": {
+    "general": "عمومی",
+    "account": "حساب کاربری",
+    "notifications": "اعلان‌ها",
+    "devices": "دستگاه‌ها",
+    "emojis_stickers": "اموجی و استیکر",
+    "developer_tools": "ابزارهای توسعه‌دهنده",
+    "about": "درباره",
+    "appearance": "ظاهر",
+    "system_theme": "تم سیستم",
+    "system_theme_description": "تم روشن یا تیره را بر اساس ترجیح سیستم انتخاب کنید.",
+    "theme": "تم",
+    "theme_description": "تمی که وقتی تم سیستم فعال نیست استفاده می‌شود.",
+    "monochrome_mode": "حالت تک‌رنگ",
+    "twitter_emoji": "اموجی توییتر",
+    "page_zoom": "بزرگنمایی صفحه",
+    "formatting": "قالب‌بندی",
+    "year": "سال",
+    "month": "ماه",
+    "day_of_month": "روز ماه",
+    "day_of_week": "روز هفته",
+    "save": "ذخیره",
+    "date_format": "فرمت تاریخ",
+    "date_time": "تاریخ و زمان",
+    "24_hour_time_format": "فرمت زمان ۲۴ ساعته",
+    "editor": "ویرایشگر",
+    "enter_for_newline": "Enter برای خط جدید",
+    "enter_for_newline_description": "از Ctrl+ENTER برای ارسال پیام و ENTER برای خط جدید استفاده کنید.",
+    "markdown_formatting": "قالب‌بندی Markdown",
+    "hide_typing_read_receipts": "پنهان کردن تایپ و رسیدهای خوانده شده",
+    "hide_typing_read_receipts_description": "تایپ و رسیدهای خوانده شده را برای محافظت از حریم خصوصی خود خاموش کنید.",
+    "messages": "پیام‌ها",
+    "message_layout": "چیدمان پیام",
+    "message_spacing": "فاصله پیام",
+    "legacy_username_color": "رنگ نام کاربری Legacy",
+    "hide_membership_change": "پنهان کردن تغییر عضویت",
+    "hide_profile_change": "پنهان کردن تغییر پروفایل",
+    "disable_media_auto_load": "غیرفعال کردن بارگیری خودکار رسانه",
+    "url_preview": "پیش‌نمایش URL",
+    "url_preview_encrypted_room": "پیش‌نمایش URL در اتاق رمزگذاری شده",
+    "show_hidden_events": "نمایش رویدادهای پنهان"
+  },
+  "EmojiBoard": {
+    "sticker": "استیکر",
+    "emoji": "اموجی",
+    "recent": "اخیر",
+    "search_or_text_reaction": "جستجو یا واکنش متنی",
+    "search": "جستجو",
+    "react": "واکنش",
+    "search_results": "نتایج جستجو",
+    "no_results_found": "نتیجه‌ای یافت نشد",
+    "no_sticker_packs": "بسته استیکری وجود ندارد!",
+    "add_stickers_from_settings": "استیکرها را از تنظیمات کاربر، اتاق یا فضا اضافه کنید.",
+    "unknown_pack": "بسته ناشناس",
+    "personal_pack": "بسته شخصی",
+    "unknown": "ناشناس"
+  },
+  "ClientRoot": {
+    "heating_up": "در حال گرم شدن",
+    "clear_cache_reload": "پاک کردن حافظه نهان و بارگذاری مجدد",
+    "logout": "خروج",
+    "failed_to_load": "بارگذاری ناموفق بود. {{error}}",
+    "failed_to_start": "شروع ناموفق بود. {{error}}",
+    "retry": "تلاش مجدد"
+  },
+  "EventReaders": {
+    "seen_by": "دیده شده توسط"
+  },
+  "ImageEditor": {
+    "image_editor": "ویرایشگر تصویر",
+    "save": "ذخیره"
+  },
+  "ImagePackView": {
+    "emojis_and_stickers": "اموجی و استیکر"
+  },
+  "ImageViewer": {
+    "download": "دانلود"
+  },
+  "InviteUserPrompt": {
+    "invite": "دعوت",
+    "user_id": "شناسه کاربر",
+    "username_server_placeholder": "@username:server",
+    "reason_optional": "دلیل (اختیاری)",
+    "invite_button": "دعوت"
+  },
+  "JoinAddressPrompt": {
+    "join_with_address": "عضویت با آدرس",
+    "enter_public_address": "آدرس عمومی را برای پیوستن به انجمن وارد کنید. فرمت آدرس:",
+    "address": "آدرس",
+    "invalid_address": "آدرس نامعتبر",
+    "open": "باز کردن"
+  },
+  "LeaveRoomPrompt": {
+    "leave_room": "ترک اتاق",
+    "confirm_leave": "آیا مطمئن هستید که می‌خواهید این اتاق را ترک کنید؟",
+    "failed_to_leave": "ترک اتاق ناموفق بود!",
+    "leaving": "در حال ترک...",
+    "leave": "ترک"
+  },
+  "LeaveSpacePrompt": {
+    "leave_space": "ترک فضا",
+    "confirm_leave": "آیا مطمئن هستید که می‌خواهید این فضا را ترک کنید؟",
+    "failed_to_leave": "ترک فضا ناموفق بود!",
+    "leaving": "در حال ترک...",
+    "leave": "ترک"
+  },
+  "MsgTypeRenderers": {
+    "image": "تصویر",
+    "video": "ویدئو",
+    "audio": "صدا",
+    "unnamed_file": "فایل بدون نام",
+    "file": "فایل",
+    "open_location": "باز کردن مکان",
+    "sticker": "استیکر"
+  },
+  "AccountDataEditor": {
+    "account_data": "داده حساب",
+    "save": "ذخیره",
+    "cancel": "لغو",
+    "json_content": "محتوای JSON",
+    "edit": "ویرایش"
+  },
+  "Features": {
+    "CreateRoomForm": {
+      "access": "دسترسی",
+      "name": "نام",
+      "topic_optional": "موضوع (اختیاری)",
+      "options": "گزینه‌ها",
+      "advance_options": "گزینه‌های پیشرفته",
+      "create": "ایجاد",
+      "encryption": "رمزگذاری پایان به پایان",
+      "encryption_description": "هنگامی که این ویژگی فعال شد، پس از ایجاد اتاق نمی‌توان آن را غیرفعال کرد.",
+      "knock_to_join": "در زدن برای پیوستن",
+      "knock_to_join_description": "هرکسی می‌تواند درخواست پیوستن به این اتاق را ارسال کند.",
+      "allow_federation": "اجازه فدراسیون",
+      "allow_federation_description": "کاربران از سرورهای دیگر می‌توانند بپیوندند."
+    },
+    "CreateSpaceForm": {
+      "access": "دسترسی",
+      "name": "نام",
+      "topic_optional": "موضوع (اختیاری)",
+      "options": "گزینه‌ها",
+      "advance_options": "گزینه‌های پیشرفته",
+      "create": "ایجاد",
+      "knock_to_join": "در زدن برای پیوستن",
+      "knock_to_join_description": "هرکسی می‌تواند درخواست پیوستن به این فضا را ارسال کند.",
+      "allow_federation": "اجازه فدراسیون",
+      "allow_federation_description": "کاربران از سرورهای دیگر می‌توانند بپیوندند."
+    }
+  }
+}

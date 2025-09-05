@@ -1,0 +1,352 @@
+{
+  "Organisms": {
+    "RoomCommon": {
+      "changed_room_name": " ha cambiato il nome della stanza"
+    }
+  },
+  "Components": {
+    "PasswordStage": {
+      "account_password": "Password dell'account",
+      "auth_instruction": "Per eseguire questa azione, devi autenticarti inserendo la password del tuo account.",
+      "password": "Password",
+      "invalid_password": "Password non valida!",
+      "continue": "Continua"
+    },
+    "EmailStage": {
+      "email": "Email",
+      "send_verification_email": "Invia email di verifica",
+      "cancel": "Annulla",
+      "verify_email": "Verifica email",
+      "failed_to_send": "Invio della richiesta di verifica email fallito.",
+      "verification_sent": "Richiesta di verifica inviata",
+      "check_email": "Controlla la tua email \"{{email}}\" e verifica prima di continuare.",
+      "continue": "Continua",
+      "provide_email": "Fornisci un'email",
+      "please_provide_email": "Fornisci un'email per inviare la richiesta di verifica.",
+      "sending_verification": "Invio email di verifica..."
+    },
+    "ReCaptchaStage": {
+      "cancel": "Annulla",
+      "invalid_data": "Dati non validi",
+      "no_valid_data": "Nessun dato valido trovato per procedere con la verifica ReCAPTCHA.",
+      "check_box": "Seleziona la casella qui sotto per continuare."
+    },
+    "RegistrationTokenStage": {
+      "registration_token": "Token di registrazione",
+      "retry": "Riprova",
+      "cancel": "Annulla",
+      "invalid_token": "Il token di registrazione fornito non è valido.",
+      "please_submit_token": "Inserisci il token di registrazione fornito dall'amministratore del server."
+    },
+    "SSOStage": {
+      "sso_login": "Accesso SSO",
+      "auth_instruction": "Per eseguire questa azione, devi autenticarti tramite accesso SSO.",
+      "continue": "Continua",
+      "continue_with_sso": "Continua con SSO"
+    },
+    "TermsStage": {
+      "retry": "Riprova",
+      "cancel": "Annulla",
+      "failed_to_submit": "Invio dell'accettazione dei termini e condizioni fallito."
+    },
+    "AdditionalCreatorInput": {
+      "founders": "Fondatori",
+      "founders_description": "Utenti con privilegi speciali possono essere assegnati alla creazione. Questi utenti hanno permessi di controllo elevati e possono essere modificati solo durante gli aggiornamenti.",
+      "enter": "Inserisci",
+      "username_placeholder": "@username:server",
+      "no_suggestions": "Nessun suggerimento",
+      "provide_user_id": "Fornisci un ID utente e premi Invio."
+    },
+    "CreateRoomAliasInput": {
+      "address_optional": "Indirizzo (opzionale)",
+      "pick_unique_address": "Scegli un indirizzo unico per renderlo scopribile.",
+      "address_taken": "Questo indirizzo è già occupato. Scegli un altro indirizzo."
+    },
+    "CreateRoomKindSelector": {
+      "restricted": "Ristretto",
+      "restricted_description": "Solo i membri dello spazio genitore possono unirsi.",
+      "private": "Privato",
+      "private_description": "Solo le persone invitate possono unirsi.",
+      "public": "Pubblico",
+      "public_description": "Chiunque abbia l'indirizzo può unirsi."
+    },
+    "RoomVersionSelector": {
+      "version": "Versione",
+      "versions": "Versioni"
+    },
+    "Editor": {
+      "bold": "Grassetto",
+      "italic": "Corsivo",
+      "underline": "Sottolineato",
+      "strike_through": "Barrato",
+      "inline_code": "Codice in linea",
+      "spoiler": "Spoiler",
+      "block_quote": "Citazione",
+      "block_code": "Blocco di codice",
+      "ordered_list": "Lista ordinata",
+      "unordered_list": "Lista non ordinata",
+      "heading_1": "Intestazione 1",
+      "heading_2": "Intestazione 2",
+      "heading_3": "Intestazione 3",
+      "exit_formatting": "Esci dalla formattazione",
+      "disable_markdown": "Disabilita Markdown",
+      "enable_markdown": "Abilita Markdown"
+    }
+  },
+  "Pages": {
+    "Login": {
+      "login": "Accedi",
+      "no_support": "Questo client non supporta l'accesso sul server \"{{server}}\". Nessun metodo di accesso tramite password o SSO trovato.",
+      "no_account": "Non hai un account?",
+      "register": "Registrati"
+    },
+    "PasswordLoginForm": {
+      "hint": "Suggerimento",
+      "username_hint": "Nome utente:",
+      "matrix_id_hint": "ID Matrix:",
+      "email_hint": "Email:",
+      "username": "Nome utente",
+      "server_not_allowed": "La tua istanza client non consente l'accesso con server personalizzati.",
+      "failed_find_server": "Impossibile trovare il server del tuo ID Matrix.",
+      "password": "Password",
+      "invalid_credentials": "Nome utente o password non validi.",
+      "account_deactivated": "Questo account è stato disattivato.",
+      "invalid_request": "Accesso fallito. Alcuni dati della tua richiesta non sono validi.",
+      "rate_limited": "Accesso fallito. La tua richiesta di accesso è stata limitata dal server, riprova più tardi.",
+      "unknown_error": "Accesso fallito. Motivo sconosciuto.",
+      "forget_password": "Password dimenticata?",
+      "login_button": "Accedi"
+    },
+    "Register": {
+      "register": "Registrati",
+      "have_account": "Hai già un account?",
+      "login": "Accedi",
+      "registration_disabled": "La registrazione è disabilitata su questo server.",
+      "rate_limited": "Sei stato limitato! Riprova più tardi.",
+      "invalid_request": "Richiesta non valida! Impossibile ottenere le opzioni di registrazione.",
+      "not_support_registration": "Questa applicazione non supporta la registrazione su questo server."
+    },
+    "ResetPassword": {
+      "reset_password": "Reimposta password",
+      "remember_password": "Ricordi la password?",
+      "login": "Accedi",
+      "reset_success": "Password reimpostata con successo. Accedi con la tua nuova password.",
+      "homeserver_email": "L'homeserver {{server}} ti invierà un'email per reimpostare la password.",
+      "email": "Email",
+      "new_password": "Nuova password",
+      "confirm_password": "Conferma password",
+      "reset_button": "Reimposta password"
+    },
+    "ServerPicker": {
+      "homeserver_list": "Lista homeserver"
+    },
+    "AuthLayout": {
+      "homeserver": "Homeserver",
+      "looking_for_homeserver": "Ricerca homeserver in corso...",
+      "failed_to_find_homeserver": "Impossibile trovare l'homeserver.",
+      "failed_to_connect_config": "Connessione fallita. La configurazione dell'homeserver trovata {{host}} sembra inutilizzabile.",
+      "failed_to_connect_invalid": "Connessione fallita. L'URL base della configurazione dell'homeserver sembra non valido.",
+      "connecting_to": "Connessione a {{url}}",
+      "failed_to_connect": "Connessione fallita. L'homeserver è attualmente non disponibile o non esiste.",
+      "loading_auth_flow": "Caricamento flusso di autenticazione...",
+      "failed_to_get_auth_flow": "Impossibile ottenere le informazioni sul flusso di autenticazione."
+    },
+    "AuthFooter": {
+      "about": "Informazioni",
+      "powered_by_matrix": "Powered by Matrix"
+    },
+    "SSOLogin": {
+      "continue_with_sso": "Continua con SSO",
+      "continue_with": "Continua con {{name}}"
+    },
+    "WelcomePage": {
+      "welcome_to_cinny": "Benvenuto in Cinny",
+      "subtitle": "Ancora un altro client Matrix.",
+      "source_code": "Codice sorgente",
+      "support": "Supporto"
+    },
+    "SyncStatus": {
+      "connecting": "Connessione in corso...",
+      "connection_lost_reconnecting": "Connessione persa! Reconnessione in corso...",
+      "connection_lost": "Connessione persa!"
+    },
+    "HomeTab": {
+      "mark_as_read": "Segna come letto",
+      "home": "Home"
+    },
+    "SettingsTab": {
+      "user_settings": "Impostazioni utente"
+    },
+    "PasswordRegisterForm": {
+      "username": "Nome utente",
+      "password": "Password",
+      "confirm_password": "Conferma password",
+      "register_button": "Registrati",
+      "password_mismatch": "Le password non corrispondono",
+      "invalid_username": "Nome utente non valido",
+      "invalid_password": "Password troppo corta o troppo debole"
+    },
+    "Home": {
+      "title": "Home",
+      "mark_as_read": "Segna come letto",
+      "no_rooms": "Nessuna stanza",
+      "no_rooms_description": "Non hai ancora nessuna stanza.",
+      "create_room": "Crea stanza",
+      "create_room_button": "Crea stanza",
+      "explore_community_rooms": "Esplora stanze della community",
+      "join_with_address": "Unisciti con indirizzo",
+      "message_search": "Cerca messaggi",
+      "rooms": "Stanze"
+    }
+  },
+  "Settings": {
+    "general": "Generale",
+    "account": "Account",
+    "notifications": "Notifiche",
+    "devices": "Dispositivi",
+    "emojis_stickers": "Emoji & Adesivi",
+    "developer_tools": "Strumenti di sviluppo",
+    "about": "Informazioni",
+    "appearance": "Aspetto",
+    "system_theme": "Tema di sistema",
+    "system_theme_description": "Scegli il tema chiaro o scuro in base alle preferenze di sistema.",
+    "theme": "Tema",
+    "theme_description": "Tema da utilizzare quando il tema di sistema non è abilitato.",
+    "monochrome_mode": "Modalità monocromatica",
+    "twitter_emoji": "Emoji di Twitter",
+    "page_zoom": "Zoom pagina",
+    "formatting": "Formattazione",
+    "year": "Anno",
+    "month": "Mese",
+    "day_of_month": "Giorno del mese",
+    "day_of_week": "Giorno della settimana",
+    "save": "Salva",
+    "date_format": "Formato data",
+    "date_time": "Data e Ora",
+    "24_hour_time_format": "Formato orario 24 ore",
+    "editor": "Editor",
+    "enter_for_newline": "Invio per nuova riga",
+    "enter_for_newline_description": "Usa Ctrl+INVIO per inviare il messaggio, INVIO per andare a capo.",
+    "markdown_formatting": "Formattazione Markdown",
+    "hide_typing_read_receipts": "Nascondi digitazione e conferme di lettura",
+    "hide_typing_read_receipts_description": "Disattiva digitazione e conferme di lettura per proteggere la tua privacy.",
+    "messages": "Messaggi",
+    "message_layout": "Layout messaggi",
+    "message_spacing": "Spaziatura messaggi",
+    "legacy_username_color": "Colore nome utente legacy",
+    "hide_membership_change": "Nascondi cambiamenti di appartenenza",
+    "hide_profile_change": "Nascondi cambiamenti del profilo",
+    "disable_media_auto_load": "Disabilita caricamento automatico media",
+    "url_preview": "Anteprima URL",
+    "url_preview_encrypted_room": "Anteprima URL in stanza cifrata",
+    "show_hidden_events": "Mostra eventi nascosti"
+  },
+  "EmojiBoard": {
+    "sticker": "Adesivo",
+    "emoji": "Emoji",
+    "recent": "Recenti",
+    "search_or_text_reaction": "Cerca o reazione di testo",
+    "search": "Cerca",
+    "react": "Reagisci",
+    "search_results": "Risultati ricerca",
+    "no_results_found": "Nessun risultato trovato",
+    "no_sticker_packs": "Nessun pacchetto di adesivi!",
+    "add_stickers_from_settings": "Aggiungi adesivi dalle impostazioni utente, stanza o spazio.",
+    "unknown_pack": "Pacchetto sconosciuto",
+    "personal_pack": "Pacchetto personale",
+    "unknown": "Sconosciuto"
+  },
+  "ClientRoot": {
+    "heating_up": "Riscaldamento",
+    "clear_cache_reload": "Pulisci cache e ricarica",
+    "logout": "Disconnetti",
+    "failed_to_load": "Caricamento fallito. {{error}}",
+    "failed_to_start": "Avvio fallito. {{error}}",
+    "retry": "Riprova"
+  },
+  "EventReaders": {
+    "seen_by": "Visto da"
+  },
+  "ImageEditor": {
+    "image_editor": "Editor immagine",
+    "save": "Salva"
+  },
+  "ImagePackView": {
+    "emojis_and_stickers": "Emoji & Adesivi"
+  },
+  "ImageViewer": {
+    "download": "Scarica"
+  },
+  "InviteUserPrompt": {
+    "invite": "Invita",
+    "user_id": "ID utente",
+    "username_server_placeholder": "@username:server",
+    "reason_optional": "Motivo (opzionale)",
+    "invite_button": "Invita"
+  },
+  "JoinAddressPrompt": {
+    "join_with_address": "Unisciti con indirizzo",
+    "enter_public_address": "Inserisci l'indirizzo pubblico per unirti alla community. Formato indirizzo:",
+    "address": "Indirizzo",
+    "invalid_address": "Indirizzo non valido",
+    "open": "Apri"
+  },
+  "LeaveRoomPrompt": {
+    "leave_room": "Lascia stanza",
+    "confirm_leave": "Sei sicuro di voler lasciare questa stanza?",
+    "failed_to_leave": "Impossibile lasciare la stanza!",
+    "leaving": "Uscita in corso...",
+    "leave": "Lascia"
+  },
+  "LeaveSpacePrompt": {
+    "leave_space": "Lascia spazio",
+    "confirm_leave": "Sei sicuro di voler lasciare questo spazio?",
+    "failed_to_leave": "Impossibile lasciare lo spazio!",
+    "leaving": "Uscita in corso...",
+    "leave": "Lascia"
+  },
+  "MsgTypeRenderers": {
+    "image": "Immagine",
+    "video": "Video",
+    "audio": "Audio",
+    "unnamed_file": "File senza nome",
+    "file": "File",
+    "open_location": "Apri posizione",
+    "sticker": "Adesivo"
+  },
+  "AccountDataEditor": {
+    "account_data": "Dati account",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "json_content": "Contenuto JSON",
+    "edit": "Modifica"
+  },
+  "Features": {
+    "CreateRoomForm": {
+      "access": "Accesso",
+      "name": "Nome",
+      "topic_optional": "Argomento (Opzionale)",
+      "options": "Opzioni",
+      "advance_options": "Opzioni avanzate",
+      "create": "Crea",
+      "encryption": "Cifratura end-to-end",
+      "encryption_description": "Una volta abilitata, questa funzionalità non può essere disabilitata dopo la creazione della stanza.",
+      "knock_to_join": "Bussa per entrare",
+      "knock_to_join_description": "Chiunque può inviare una richiesta per unirsi a questa stanza.",
+      "allow_federation": "Consenti federazione",
+      "allow_federation_description": "Utenti di altri server possono unirsi."
+    },
+    "CreateSpaceForm": {
+      "access": "Accesso",
+      "name": "Nome",
+      "topic_optional": "Argomento (Opzionale)",
+      "options": "Opzioni",
+      "advance_options": "Opzioni avanzate",
+      "create": "Crea",
+      "knock_to_join": "Bussa per entrare",
+      "knock_to_join_description": "Chiunque può inviare una richiesta per unirsi a questo spazio.",
+      "allow_federation": "Consenti federazione",
+      "allow_federation_description": "Utenti di altri server possono unirsi."
+    }
+  }
+}

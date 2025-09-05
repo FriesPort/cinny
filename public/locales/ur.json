@@ -1,0 +1,352 @@
+{
+  "Organisms": {
+    "RoomCommon": {
+      "changed_room_name": " نے کمرے کا نام تبدیل کیا"
+    }
+  },
+  "Components": {
+    "PasswordStage": {
+      "account_password": "اکاؤنٹ پاس ورڈ",
+      "auth_instruction": "اس عمل کو انجام دینے کے لیے، آپ کو اپنا اکاؤنٹ پاس ورڈ درج کرکے تصدیق کرنے کی ضرورت ہے۔",
+      "password": "پاس ورڈ",
+      "invalid_password": "غلط پاس ورڈ!",
+      "continue": "جاری رکھیں"
+    },
+    "EmailStage": {
+      "email": "ای میل",
+      "send_verification_email": "تصدیقی ای میل بھیجیں",
+      "cancel": "منسوخ کریں",
+      "verify_email": "ای میل کی تصدیق کریں",
+      "failed_to_send": "تصدیقی ای میل کی درخواست بھیجنے میں ناکامی۔",
+      "verification_sent": "تصدیق کی درخواست بھیج دی گئی",
+      "check_email": "براہ کرم اپنی ای میل \"{{email}}\" چیک کریں اور جاری رکھنے سے پہلے تصدیق کریں۔",
+      "continue": "جاری رکھیں",
+      "provide_email": "ای میل فراہم کریں",
+      "please_provide_email": "براہ کرم تصدیقی درخواست بھیجنے کے لیے ایک ای میل فراہم کریں۔",
+      "sending_verification": "تصدیقی ای میل بھیجی جا رہی ہے..."
+    },
+    "ReCaptchaStage": {
+      "cancel": "منسوخ کریں",
+      "invalid_data": "غلط ڈیٹا",
+      "no_valid_data": "ReCAPTCHA تصدیق کے ساتھ آگے بڑھنے کے لیے کوئی درست ڈیٹا نہیں ملا۔",
+      "check_box": "براہ کرم جاری رکھنے کے لیے نیچے دیے گئے باکس کو چیک کریں۔"
+    },
+    "RegistrationTokenStage": {
+      "registration_token": "رجسٹریشن ٹوکن",
+      "retry": "دوبارہ کوشش کریں",
+      "cancel": "منسوخ کریں",
+      "invalid_token": "فراہم کردہ رجسٹریشن ٹوکن غلط ہے۔",
+      "please_submit_token": "براہ کرم اپنے سرور ایڈمنسٹریٹر کے ذریعہ فراہم کردہ رجسٹریشن ٹوکن جمع کرائیں۔"
+    },
+    "SSOStage": {
+      "sso_login": "SSO لاگ ان",
+      "auth_instruction": "اس عمل کو انجام دینے کے لیے، آپ کو SSO لاگ ان کے ذریعے تصدیق کرنے کی ضرورت ہے۔",
+      "continue": "جاری رکھیں",
+      "continue_with_sso": "SSO کے ساتھ جاری رکھیں"
+    },
+    "TermsStage": {
+      "retry": "دوبارہ کوشش کریں",
+      "cancel": "منسوخ کریں",
+      "failed_to_submit": "شرائط و ضوابط کی قبولیت جمع کرانے میں ناکامی۔"
+    },
+    "AdditionalCreatorInput": {
+      "founders": "بانی",
+      "founders_description": "تخلیق کے وقت خصوصی مراعات یافتہ صارفین کو تفویض کیا جا سکتا ہے۔ ان صارفین کے پاس بلند کنٹرول اجازت نامے ہوتے ہیں اور انہیں صرف اپ گریڈ کے دوران تبدیل کیا جا سکتا ہے۔",
+      "enter": "درج کریں",
+      "username_placeholder": "@username:server",
+      "no_suggestions": "کوئی تجاویز نہیں",
+      "provide_user_id": "براہ کرم صارف ID درج کریں اور Enter دبائیں۔"
+    },
+    "CreateRoomAliasInput": {
+      "address_optional": "پتہ (اختیاری)",
+      "pick_unique_address": "اسے قابل دریافت بنانے کے لیے ایک منفرد پتہ منتخب کریں۔",
+      "address_taken": "یہ پتہ پہلے سے لیا جا چکا ہے۔ براہ کرم کوئی دوسرا پتہ منتخب کریں۔"
+    },
+    "CreateRoomKindSelector": {
+      "restricted": "محدود",
+      "restricted_description": "صرف والدین کی جگہ کے اراکین شامل ہو سکتے ہیں۔",
+      "private": "پرائیویٹ",
+      "private_description": "صرف مدعو کیے گئے لوگ شامل ہو سکتے ہیں۔",
+      "public": "عوامی",
+      "public_description": "پتہ رکھنے والا کوئی بھی شخص شامل ہو سکتا ہے۔"
+    },
+    "RoomVersionSelector": {
+      "version": "ورژن",
+      "versions": "ورژنز"
+    },
+    "Editor": {
+      "bold": "موٹا",
+      "italic": "ترچھا",
+      "underline": "انڈر لائن",
+      "strike_through": "سٹرائیک تھرو",
+      "inline_code": "ان لائن کوڈ",
+      "spoiler": "سپوئلر",
+      "block_quote": "بلاک کوٹ",
+      "block_code": "کوڈ بلاک",
+      "ordered_list": "آرڈرڈ لسٹ",
+      "unordered_list": "غیر مرتب شدہ لسٹ",
+      "heading_1": "ہیڈنگ 1",
+      "heading_2": "ہیڈنگ 2",
+      "heading_3": "ہیڈنگ 3",
+      "exit_formatting": "فارمیٹنگ سے باہر نکلیں",
+      "disable_markdown": "مارک ڈاؤن غیر فعال کریں",
+      "enable_markdown": "مارک ڈاؤن فعال کریں"
+    }
+  },
+  "Pages": {
+    "Login": {
+      "login": "لاگ ان",
+      "no_support": "یہ کلائنٹ \"{{server}}\" سرور پر لاگ ان کی حمایت نہیں کرتا۔ پاس ورڈ پر مبنی اور SSO لاگ ان کے طریقے نہیں ملے۔",
+      "no_account": "کوئی اکاؤنٹ نہیں ہے؟",
+      "register": "رجسٹر کریں"
+    },
+    "PasswordLoginForm": {
+      "hint": "اشارہ",
+      "username_hint": "صارف نام:",
+      "matrix_id_hint": "میٹرکس ID:",
+      "email_hint": "ای میل:",
+      "username": "صارف نام",
+      "server_not_allowed": "آپ کی کلائنٹ مثال کسٹم سرورز کے ساتھ لاگ ان کی اجازت نہیں دیتی۔",
+      "failed_find_server": "آپ کے میٹرکس ID سرور کو تلاش کرنے میں ناکامی۔",
+      "password": "پاس ورڈ",
+      "invalid_credentials": "غلط صارف نام یا پاس ورڈ۔",
+      "account_deactivated": "یہ اکاؤنٹ غیر فعال کر دیا گیا ہے۔",
+      "invalid_request": "لاگ ان ناکام۔ آپ کے درخواست کے کچھ ڈیٹا غلط ہے۔",
+      "rate_limited": "لاگ ان ناکام۔ سرور نے آپ کی لاگ ان درخواست کو ریٹ لیمٹ کر دیا ہے، براہ کرم بعد میں دوبارہ کوشش کریں۔",
+      "unknown_error": "لاگ ان ناکام۔ نامعلوم وجہ۔",
+      "forget_password": "پاس ورڈ بھول گئے؟",
+      "login_button": "لاگ ان"
+    },
+    "Register": {
+      "register": "رجسٹر کریں",
+      "have_account": "پہلے سے ہی اکاؤنٹ ہے؟",
+      "login": "لاگ ان",
+      "registration_disabled": "اس سرور پر رجسٹریشن غیر فعال ہے۔",
+      "rate_limited": "آپ کو ریٹ لیمٹ کیا گیا ہے! براہ کرم بعد میں دوبارہ کوشش کریں۔",
+      "invalid_request": "غلط درخواست! کوئی رجسٹریشن آپشن حاصل کرنے میں ناکامی۔",
+      "not_support_registration": "یہ ایپلیکیشن اس سرور پر رجسٹریشن کی حمایت نہیں کرتی۔"
+    },
+    "ResetPassword": {
+      "reset_password": "پاس ورڈ ری سیٹ کریں",
+      "remember_password": "پاس ورڈ یاد ہے؟",
+      "login": "لاگ ان",
+      "reset_success": "پاس ورڈ کامیابی سے ری سیٹ ہو گیا ہے۔ براہ کرم اپنے نئے پاس ورڈ کے ساتھ لاگ ان کریں۔",
+      "homeserver_email": "ہوم سرور {{server}} آپ کو پاس ورڈ ری سیٹ کرنے کے لیے ایک ای میل بھیجے گا۔",
+      "email": "ای میل",
+      "new_password": "نیا پاس ورڈ",
+      "confirm_password": "پاس ورڈ کی تصدیق کریں",
+      "reset_button": "پاس ورڈ ری سیٹ کریں"
+    },
+    "ServerPicker": {
+      "homeserver_list": "ہوم سرور کی فہرست"
+    },
+    "AuthLayout": {
+      "homeserver": "ہوم سرور",
+      "looking_for_homeserver": "ہوم سرور تلاش کیا جا رہا ہے...",
+      "failed_to_find_homeserver": "ہوم سرور تلاش کرنے میں ناکامی۔",
+      "failed_to_connect_config": "کنکشن ناکام۔ ملا ہوم سرور کنفیگریشن {{host}} ناقابل استعمال لگتا ہے۔",
+      "failed_to_connect_invalid": "کنکشن ناکام۔ ہوم سرور کنفیگریشن base_url غلط لگتی ہے۔",
+      "connecting_to": "{{url}} سے منسلک ہو رہے ہیں",
+      "failed_to_connect": "کنکشن ناکام۔ ہوم سرور فی الحال دستیاب نہیں ہے یا موجود نہیں ہے۔",
+      "loading_auth_flow": "تصدیق کے بہاؤ کی معلومات لوڈ ہو رہی ہیں...",
+      "failed_to_get_auth_flow": "تصدیق کے بہاؤ کی معلومات حاصل کرنے میں ناکامی۔"
+    },
+    "AuthFooter": {
+      "about": "متعارف",
+      "powered_by_matrix": "میٹرکس کے ذریعہ طاقت یافتہ"
+    },
+    "SSOLogin": {
+      "continue_with_sso": "SSO کے ساتھ جاری رکھیں",
+      "continue_with": "{{name}} کے ساتھ جاری رکھیں"
+    },
+    "WelcomePage": {
+      "welcome_to_cinny": "Cinny میں خوش آمدید",
+      "subtitle": "ایک اور میٹرکس کلائنٹ۔",
+      "source_code": "سورس کوڈ",
+      "support": "سپورٹ"
+    },
+    "SyncStatus": {
+      "connecting": "منسلک ہو رہے ہیں...",
+      "connection_lost_reconnecting": "کنکشن منقطع ہو گیا! دوبارہ منسلک ہو رہے ہیں...",
+      "connection_lost": "کنکشن منقطع ہو گیا!"
+    },
+    "HomeTab": {
+      "mark_as_read": "پڑھا ہوا نشان زد کریں",
+      "home": "ہوم"
+    },
+    "SettingsTab": {
+      "user_settings": "صارف کی ترتیبات"
+    },
+    "PasswordRegisterForm": {
+      "username": "صارف نام",
+      "password": "پاس ورڈ",
+      "confirm_password": "پاس ورڈ کی تصدیق کریں",
+      "register_button": "رجسٹر کریں",
+      "password_mismatch": "پاس ورڈ مماثل نہیں",
+      "invalid_username": "غلط صارف نام",
+      "invalid_password": "پاس ورڈ بہت چھوٹا یا کمزور ہے"
+    },
+    "Home": {
+      "title": "ہوم",
+      "mark_as_read": "پڑھا ہوا نشان زد کریں",
+      "no_rooms": "کوئی کمرے نہیں",
+      "no_rooms_description": "آپ کے پاس ابھی تک کوئی کمرے نہیں ہیں۔",
+      "create_room": "کمرہ بنائیں",
+      "create_room_button": "کمرہ بنائیں",
+      "explore_community_rooms": "کمیونٹی کے کمرے دریافت کریں",
+      "join_with_address": "پتے کے ساتھ شامل ہوں",
+      "message_search": "پیغام کی تلاش",
+      "rooms": "کمرے"
+    }
+  },
+  "Settings": {
+    "general": "جنرل",
+    "account": "اکاؤنٹ",
+    "notifications": "نوٹیفیکیشنز",
+    "devices": "ڈیوائسز",
+    "emojis_stickers": "ایموجیز اور اسٹیکرز",
+    "developer_tools": "ڈویلپر ٹولز",
+    "about": "متعارف",
+    "appearance": "ظہور",
+    "system_theme": "سسٹم تھیم",
+    "system_theme_description": "سسٹم کی ترجیح کی بنیاد پر لائٹ یا ڈارک تھیم منتخب کریں۔",
+    "theme": "تھیم",
+    "theme_description": "وہ تھیم جو سسٹم تھیم غیر فعال ہونے پر استعمال ہوگی۔",
+    "monochrome_mode": "مونوکروم موڈ",
+    "twitter_emoji": "ٹویٹر ایموجی",
+    "page_zoom": "صفحے کی زوم",
+    "formatting": "فارمیٹنگ",
+    "year": "سال",
+    "month": "مہینہ",
+    "day_of_month": "مہینے کا دن",
+    "day_of_week": "ہفتے کا دن",
+    "save": "محفوظ کریں",
+    "date_format": "تاریخ کی شکل",
+    "date_time": "تاریخ اور وقت",
+    "24_hour_time_format": "24-گھنٹے کا وقت فارمیٹ",
+    "editor": "ایڈیٹر",
+    "enter_for_newline": "نئی لائن کے لیے Enter",
+    "enter_for_newline_description": "پیغام بھیجنے کے لیے Ctrl+ENTER استعمال کریں، نئی لائن کے لیے ENTER۔",
+    "markdown_formatting": "مارک ڈاؤن فارمیٹنگ",
+    "hide_typing_read_receipts": "ٹائپنگ اور پڑھے جانے کی رسید چھپائیں",
+    "hide_typing_read_receipts_description": "اپنی پرائیویسی کو محفوظ رکھنے کے لیے ٹائپنگ اور پڑھے جانے کی رسیدیں بند کریں۔",
+    "messages": "پیغامات",
+    "message_layout": "پیغام کی ترتیب",
+    "message_spacing": "پیغام کے درمیان فاصلہ",
+    "legacy_username_color": "لیگیسی صارف نام کا رنگ",
+    "hide_membership_change": "رکنیت کی تبدیلی چھپائیں",
+    "hide_profile_change": "پروفائل کی تبدیلی چھپائیں",
+    "disable_media_auto_load": "میڈیا کی خودکار لوڈنگ غیر فعال کریں",
+    "url_preview": "URL پریویو",
+    "url_preview_encrypted_room": "خفیہ کمرے میں URL پریویو",
+    "show_hidden_events": "پوشیدہ واقعات دکھائیں"
+  },
+  "EmojiBoard": {
+    "sticker": "اسٹیکر",
+    "emoji": "ایموجی",
+    "recent": "حالیہ",
+    "search_or_text_reaction": "تلاش کریں یا متن کا رد عمل",
+    "search": "تلاش کریں",
+    "react": "ری ایکٹ کریں",
+    "search_results": "تلاش کے نتائج",
+    "no_results_found": "کوئی نتائج نہیں ملے",
+    "no_sticker_packs": "کوئی اسٹیکر پیک نہیں!",
+    "add_stickers_from_settings": "صارف، کمرے یا سپیس کی ترتیبات سے اسٹیکرز شامل کریں۔",
+    "unknown_pack": "نامعلوم پیک",
+    "personal_pack": "ذاتی پیک",
+    "unknown": "نامعلوم"
+  },
+  "ClientRoot": {
+    "heating_up": "تیار ہو رہا ہے",
+    "clear_cache_reload": "کیشے صاف کریں اور دوبارہ لوڈ کریں",
+    "logout": "لاگ آؤٹ",
+    "failed_to_load": "لوڈ کرنے میں ناکامی۔ {{error}}",
+    "failed_to_start": "شروع کرنے میں ناکامی۔ {{error}}",
+    "retry": "دوبارہ کوشش کریں"
+  },
+  "EventReaders": {
+    "seen_by": "کے ذریعہ دیکھا گیا"
+  },
+  "ImageEditor": {
+    "image_editor": "امیج ایڈیٹر",
+    "save": "محفوظ کریں"
+  },
+  "ImagePackView": {
+    "emojis_and_stickers": "ایموجیز اور اسٹیکرز"
+  },
+  "ImageViewer": {
+    "download": "ڈاؤن لوڈ کریں"
+  },
+  "InviteUserPrompt": {
+    "invite": "مدعو کریں",
+    "user_id": "صارف ID",
+    "username_server_placeholder": "@username:server",
+    "reason_optional": "وجہ (اختیاری)",
+    "invite_button": "مدعو کریں"
+  },
+  "JoinAddressPrompt": {
+    "join_with_address": "پتے کے ساتھ شامل ہوں",
+    "enter_public_address": "کمیونٹی میں شامل ہونے کے لیے عوامی پتہ درج کریں۔ پتے کی شکل:",
+    "address": "پتہ",
+    "invalid_address": "غلط پتہ",
+    "open": "کھولیں"
+  },
+  "LeaveRoomPrompt": {
+    "leave_room": "کمرہ چھوڑیں",
+    "confirm_leave": "کیا آپ واقعی اس کمرے کو چھوڑنا چاہتے ہیں؟",
+    "failed_to_leave": "کمرہ چھوڑنے میں ناکامی!",
+    "leaving": "چھوڑ رہے ہیں...",
+    "leave": "چھوڑیں"
+  },
+  "LeaveSpacePrompt": {
+    "leave_space": "سپیس چھوڑیں",
+    "confirm_leave": "کیا آپ واقعی اس سپیس کو چھوڑنا چاہتے ہیں؟",
+    "failed_to_leave": "سپیس چھوڑنے میں ناکامی!",
+    "leaving": "چھوڑ رہے ہیں...",
+    "leave": "چھوڑیں"
+  },
+  "MsgTypeRenderers": {
+    "image": "تصویر",
+    "video": "ویڈیو",
+    "audio": "آڈیو",
+    "unnamed_file": "بے نام فائل",
+    "file": "فائل",
+    "open_location": "مقام کھولیں",
+    "sticker": "اسٹیکر"
+  },
+  "AccountDataEditor": {
+    "account_data": "اکاؤنٹ ڈیٹا",
+    "save": "محفوظ کریں",
+    "cancel": "منسوخ کریں",
+    "json_content": "JSON مواد",
+    "edit": "ترمیم کریں"
+  },
+  "Features": {
+    "CreateRoomForm": {
+      "access": "رسائی",
+      "name": "نام",
+      "topic_optional": "موضوع (اختیاری)",
+      "options": "اختیارات",
+      "advance_options": "اعلیٰ اختیارات",
+      "create": "بنائیں",
+      "encryption": "اینڈ ٹو اینڈ خفیہ کاری",
+      "encryption_description": "ایک بار یہ خصوصیت فعال ہو جائے تو، کمرہ بننے کے بعد اسے غیر فعال نہیں کیا جا سکتا۔",
+      "knock_to_join": "دستک دے کر شامل ہوں",
+      "knock_to_join_description": "کوئی بھی اس کمرے میں شامل ہونے کی درخواست بھیج سکتا ہے۔",
+      "allow_federation": "فیڈریشن کی اجازت دیں",
+      "allow_federation_description": "دوسرے سرورز کے صارفین شامل ہو سکتے ہیں۔"
+    },
+    "CreateSpaceForm": {
+      "access": "رسائی",
+      "name": "نام",
+      "topic_optional": "موضوع (اختیاری)",
+      "options": "اختیارات",
+      "advance_options": "اعلیٰ اختیارات",
+      "create": "بنائیں",
+      "knock_to_join": "دستک دے کر شامل ہوں",
+      "knock_to_join_description": "کوئی بھی اس سپیس میں شامل ہونے کی درخواست بھیج سکتا ہے۔",
+      "allow_federation": "فیڈریشن کی اجازت دیں",
+      "allow_federation_description": "دوسرے سرورز کے صارفین شامل ہو سکتے ہیں۔"
+    }
+  }
+}

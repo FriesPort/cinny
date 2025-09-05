@@ -1,0 +1,352 @@
+{
+  "Organisms": {
+    "RoomCommon": {
+      "changed_room_name": "ने कमरे का नाम बदल दिया"
+    }
+  },
+  "Components": {
+    "PasswordStage": {
+      "account_password": "खाता पासवर्ड",
+      "auth_instruction": "इस क्रिया को करने के लिए, आपको अपना खाता पासवर्ड दर्ज करके प्रमाणीकरण करना होगा।",
+      "password": "पासवर्ड",
+      "invalid_password": "अमान्य पासवर्ड!",
+      "continue": "जारी रखें"
+    },
+    "EmailStage": {
+      "email": "ईमेल",
+      "send_verification_email": "सत्यापन ईमेल भेजें",
+      "cancel": "रद्द करें",
+      "verify_email": "ईमेल सत्यापित करें",
+      "failed_to_send": "सत्यापन ईमेल अनुरोध भेजने में विफल।",
+      "verification_sent": "सत्यापन अनुरोध भेज दिया गया",
+      "check_email": "कृपया जारी रखने से पहले अपना ईमेल \"{{email}}\" जांचें और सत्यापित करें।",
+      "continue": "जारी रखें",
+      "provide_email": "ईमेल प्रदान करें",
+      "please_provide_email": "सत्यापन अनुरोध भेजने के लिए कृपया एक ईमेल प्रदान करें।",
+      "sending_verification": "सत्यापन ईमेल भेजा जा रहा है..."
+    },
+    "ReCaptchaStage": {
+      "cancel": "रद्द करें",
+      "invalid_data": "अमान्य डेटा",
+      "no_valid_data": "ReCAPTCHA सत्यापन के साथ आगे बढ़ने के लिए कोई वैध डेटा नहीं मिला।",
+      "check_box": "जारी रखने के लिए कृपया नीचे दिए गए बॉक्स को चेक करें।"
+    },
+    "RegistrationTokenStage": {
+      "registration_token": "पंजीकरण टोकन",
+      "retry": "पुनः प्रयास करें",
+      "cancel": "रद्द करें",
+      "invalid_token": "प्रदान किया गया पंजीकरण टोकन अमान्य है।",
+      "please_submit_token": "कृपया अपने सर्वर प्रशासक द्वारा प्रदान किया गया पंजीकरण टोकन जमा करें।"
+    },
+    "SSOStage": {
+      "sso_login": "SSO लॉगिन",
+      "auth_instruction": "इस क्रिया को करने के लिए, आपको SSO लॉगिन के माध्यम से प्रमाणीकरण करना होगा।",
+      "continue": "जारी रखें",
+      "continue_with_sso": "SSO के साथ जारी रखें"
+    },
+    "TermsStage": {
+      "retry": "पुनः प्रयास करें",
+      "cancel": "रद्द करें",
+      "failed_to_submit": "नियम और शर्तों की स्वीकृति जमा करने में विफल।"
+    },
+    "AdditionalCreatorInput": {
+      "founders": "संस्थापक",
+      "founders_description": "निर्माण के समय विशेष विशेषाधिकार प्राप्त उपयोगकर्ता नियत किए जा सकते हैं। इन उपयोगकर्ताओं के पास उन्नत नियंत्रण अनुमतियाँ होती हैं और उन्हें केवल उन्नयन के दौरान संशोधित किया जा सकता है।",
+      "enter": "दर्ज करें",
+      "username_placeholder": "@उपयोगकर्तानाम:सर्वर",
+      "no_suggestions": "कोई सुझाव नहीं",
+      "provide_user_id": "कृपया उपयोगकर्ता ID प्रदान करें और Enter दबाएँ।"
+    },
+    "CreateRoomAliasInput": {
+      "address_optional": "पता (वैकल्पिक)",
+      "pick_unique_address": "इसे खोजने योग्य बनाने के लिए एक अद्वितीय पता चुनें।",
+      "address_taken": "यह पता पहले से लिया जा चुका है। कृपया कोई अन्य पता चुनें।"
+    },
+    "CreateRoomKindSelector": {
+      "restricted": "प्रतिबंधित",
+      "restricted_description": "केवल मूल स्पेस के सदस्य ही जुड़ सकते हैं।",
+      "private": "निजी",
+      "private_description": "केवल आमंत्रित लोग ही जुड़ सकते हैं।",
+      "public": "सार्वजनिक",
+      "public_description": "कोई भी व्यक्ति जिसके पास पता है, जुड़ सकता है।"
+    },
+    "RoomVersionSelector": {
+      "version": "संस्करण",
+      "versions": "संस्करण"
+    },
+    "Editor": {
+      "bold": "बोल्ड",
+      "italic": "इटैलिक",
+      "underline": "अंडरलाइन",
+      "strike_through": "स्ट्राइक थ्रू",
+      "inline_code": "इनलाइन कोड",
+      "spoiler": "स्पॉइलर",
+      "block_quote": "ब्लॉक कोट",
+      "block_code": "कोड ब्लॉक",
+      "ordered_list": "क्रमबद्ध सूची",
+      "unordered_list": "अक्रमबद्ध सूची",
+      "heading_1": "शीर्षक 1",
+      "heading_2": "शीर्षक 2",
+      "heading_3": "शीर्षक 3",
+      "exit_formatting": "फ़ॉर्मेटिंग से बाहर निकलें",
+      "disable_markdown": "मार्कडाउन अक्षम करें",
+      "enable_markdown": "मार्कडाउन सक्षम करें"
+    }
+  },
+  "Pages": {
+    "Login": {
+      "login": "लॉग इन",
+      "no_support": "यह क्लाइंट \"{{server}}\" सर्वर पर लॉगिन का समर्थन नहीं करता है। पासवर्ड-आधारित और SSO लॉगिन विधियाँ नहीं मिलीं।",
+      "no_account": "खाता नहीं है?",
+      "register": "पंजीकरण करें"
+    },
+    "PasswordLoginForm": {
+      "hint": "संकेत",
+      "username_hint": "उपयोगकर्तानाम:",
+      "matrix_id_hint": "मैट्रिक्स ID:",
+      "email_hint": "ईमेल:",
+      "username": "उपयोगकर्तानाम",
+      "server_not_allowed": "आपके क्लाइंट उदाहरण के साथ कस्टम सर्वरों से लॉगिन की अनुमति नहीं है।",
+      "failed_find_server": "आपका मैट्रिक्स ID सर्वर खोजने में विफल।",
+      "password": "पासवर्ड",
+      "invalid_credentials": "अमान्य उपयोगकर्तानाम या पासवर्ड।",
+      "account_deactivated": "यह खाता निष्क्रिय कर दिया गया है।",
+      "invalid_request": "लॉगिन विफल। आपके अनुरोध डेटा में से कुछ अमान्य है।",
+      "rate_limited": "लॉगिन विफल। आपके लॉगिन अनुरोध को सर्वर द्वारा दर सीमित कर दिया गया है, कृपया बाद में पुनः प्रयास करें।",
+      "unknown_error": "लॉगिन विफल। अज्ञात कारण।",
+      "forget_password": "पासवर्ड भूल गए?",
+      "login_button": "लॉग इन"
+    },
+    "Register": {
+      "register": "पंजीकरण करें",
+      "have_account": "पहले से ही एक खाता है?",
+      "login": "लॉग इन",
+      "registration_disabled": "इस सर्वर पर पंजीकरण अक्षम है।",
+      "rate_limited": "आप दर सीमित हैं! कृपया बाद में पुनः प्रयास करें।",
+      "invalid_request": "अमान्य अनुरोध! कोई पंजीकरण विकल्प प्राप्त करने में विफल।",
+      "not_support_registration": "यह एप्लिकेशन इस सर्वर पर पंजीकरण का समर्थन नहीं करता है।"
+    },
+    "ResetPassword": {
+      "reset_password": "पासवर्ड रीसेट करें",
+      "remember_password": "पासवर्ड याद है?",
+      "login": "लॉग इन",
+      "reset_success": "पासवर्ड सफलतापूर्वक रीसेट कर दिया गया है। कृपया अपने नए पासवर्ड से लॉगिन करें।",
+      "homeserver_email": "होमसर्वर {{server}} आपको एक ईमेल भेजेगा ताकि आप अपना पासवर्ड रीसेट कर सकें।",
+      "email": "ईमेल",
+      "new_password": "नया पासवर्ड",
+      "confirm_password": "पासवर्ड की पुष्टि करें",
+      "reset_button": "पासवर्ड रीसेट करें"
+    },
+    "ServerPicker": {
+      "homeserver_list": "होमसर्वर सूची"
+    },
+    "AuthLayout": {
+      "homeserver": "होमसर्वर",
+      "looking_for_homeserver": "होमसर्वर खोज रहे हैं...",
+      "failed_to_find_homeserver": "होमसर्वर खोजने में विफल।",
+      "failed_to_connect_config": "कनेक्शन विफल। मिला होमसर्वर कॉन्फ़िग {{host}} अनुपयोगी लगता है।",
+      "failed_to_connect_invalid": "कनेक्शन विफल। होमसर्वर कॉन्फ़िग base_url अमान्य लगता है।",
+      "connecting_to": "{{url}} से कनेक्ट हो रहा है",
+      "failed_to_connect": "कनेक्शन विफल। होमसर्वर वर्तमान में अनुपलब्ध है या मौजूद नहीं है।",
+      "loading_auth_flow": "प्रमाणीकरण प्रवाह लोड हो रहा है...",
+      "failed_to_get_auth_flow": "प्रमाणीकरण प्रवाह जानकारी प्राप्त करने में विफल।"
+    },
+    "AuthFooter": {
+      "about": "के बारे में",
+      "powered_by_matrix": "मैट्रिक्स द्वारा संचालित"
+    },
+    "SSOLogin": {
+      "continue_with_sso": "SSO के साथ जारी रखें",
+      "continue_with": "{{name}} के साथ जारी रखें"
+    },
+    "WelcomePage": {
+      "welcome_to_cinny": "Cinny में आपका स्वागत है",
+      "subtitle": "एक और मैट्रिक्स क्लाइंट।",
+      "source_code": "स्रोत कोड",
+      "support": "सहायता"
+    },
+    "SyncStatus": {
+      "connecting": "कनेक्ट हो रहा है...",
+      "connection_lost_reconnecting": "कनेक्शन खो गया! पुनः कनेक्ट हो रहा है...",
+      "connection_lost": "कनेक्शन खो गया!"
+    },
+    "HomeTab": {
+      "mark_as_read": "पढ़ा हुआ चिह्नित करें",
+      "home": "होम"
+    },
+    "SettingsTab": {
+      "user_settings": "उपयोगकर्ता सेटिंग्स"
+    },
+    "PasswordRegisterForm": {
+      "username": "उपयोगकर्तानाम",
+      "password": "पासवर्ड",
+      "confirm_password": "पासवर्ड की पुष्टि करें",
+      "register_button": "पंजीकरण करें",
+      "password_mismatch": "पासवर्ड मेल नहीं खा रहा",
+      "invalid_username": "अमान्य उपयोगकर्तानाम",
+      "invalid_password": "पासवर्ड बहुत छोटा या कमजोर है"
+    },
+    "Home": {
+      "title": "होम",
+      "mark_as_read": "पढ़ा हुआ चिह्नित करें",
+      "no_rooms": "कोई कमरा नहीं",
+      "no_rooms_description": "आपके पास अभी तक कोई कमरा नहीं है।",
+      "create_room": "कमरा बनाएँ",
+      "create_room_button": "कमरा बनाएँ",
+      "explore_community_rooms": "सामुदायिक कमरे खोजें",
+      "join_with_address": "पते से जुड़ें",
+      "message_search": "संदेश खोज",
+      "rooms": "कमरे"
+    }
+  },
+  "Settings": {
+    "general": "सामान्य",
+    "account": "खाता",
+    "notifications": "सूचनाएँ",
+    "devices": "डिवाइस",
+    "emojis_stickers": "इमोजी और स्टिकर",
+    "developer_tools": "डेवलपर टूल्स",
+    "about": "के बारे में",
+    "appearance": "रूप",
+    "system_theme": "सिस्टम थीम",
+    "system_theme_description": "सिस्टम प्राथमिकता के आधार पर लाइट या डार्क थीम चुनें।",
+    "theme": "थीम",
+    "theme_description": "सिस्टम थीम सक्षम न होने पर उपयोग की जाने वाली थीम।",
+    "monochrome_mode": "मोनोक्रोम मोड",
+    "twitter_emoji": "ट्विटर इमोजी",
+    "page_zoom": "पेज ज़ूम",
+    "formatting": "फ़ॉर्मेटिंग",
+    "year": "वर्ष",
+    "month": "महीना",
+    "day_of_month": "महीने का दिन",
+    "day_of_week": "सप्ताह का दिन",
+    "save": "सहेजें",
+    "date_format": "तारीख प्रारूप",
+    "date_time": "तारीख और समय",
+    "24_hour_time_format": "24-घंटे का समय प्रारूप",
+    "editor": "संपादक",
+    "enter_for_newline": "नई लाइन के लिए Enter",
+    "enter_for_newline_description": "संदेश भेजने के लिए Ctrl+ENTER का उपयोग करें, नई लाइन के लिए ENTER दबाएँ।",
+    "markdown_formatting": "मार्कडाउन फ़ॉर्मेटिंग",
+    "hide_typing_read_receipts": "टाइपिंग और रीड रसीदें छुपाएँ",
+    "hide_typing_read_receipts_description": "अपनी गोपनीयता की सुरक्षा के लिए टाइपिंग और रीड रसीदें बंद करें।",
+    "messages": "संदेश",
+    "message_layout": "संदेश लेआउट",
+    "message_spacing": "संदेश रिक्ति",
+    "legacy_username_color": "लेगेसी उपयोगकर्तानाम रंग",
+    "hide_membership_change": "सदस्यता परिवर्तन छुपाएँ",
+    "hide_profile_change": "प्रोफ़ाइल परिवर्तन छुपाएँ",
+    "disable_media_auto_load": "मीडिया ऑटो लोड अक्षम करें",
+    "url_preview": "URL पूर्वावलोकन",
+    "url_preview_encrypted_room": "एन्क्रिप्टेड कमरे में URL पूर्वावलोकन",
+    "show_hidden_events": "छुपी हुई घटनाएँ दिखाएँ"
+  },
+  "EmojiBoard": {
+    "sticker": "स्टिकर",
+    "emoji": "इमोजी",
+    "recent": "हालिया",
+    "search_or_text_reaction": "खोजें या टेक्स्ट प्रतिक्रिया",
+    "search": "खोजें",
+    "react": "प्रतिक्रिया",
+    "search_results": "खोज परिणाम",
+    "no_results_found": "कोई परिणाम नहीं मिला",
+    "no_sticker_packs": "कोई स्टिकर पैक नहीं!",
+    "add_stickers_from_settings": "उपयोगकर्ता, कमरे या स्पेस सेटिंग्स से स्टिकर जोड़ें।",
+    "unknown_pack": "अज्ञात पैक",
+    "personal_pack": "व्यक्तिगत पैक",
+    "unknown": "अज्ञात"
+  },
+  "ClientRoot": {
+    "heating_up": "गर्म हो रहा है",
+    "clear_cache_reload": "कैश साफ़ करें और पुनः लोड करें",
+    "logout": "लॉग आउट",
+    "failed_to_load": "लोड करने में विफल। {{error}}",
+    "failed_to_start": "शुरू करने में विफल। {{error}}",
+    "retry": "पुनः प्रयास करें"
+  },
+  "EventReaders": {
+    "seen_by": "द्वारा देखा गया"
+  },
+  "ImageEditor": {
+    "image_editor": "छवि संपादक",
+    "save": "सहेजें"
+  },
+  "ImagePackView": {
+    "emojis_and_stickers": "इमोजी और स्टिकर"
+  },
+  "ImageViewer": {
+    "download": "डाउनलोड"
+  },
+  "InviteUserPrompt": {
+    "invite": "आमंत्रित करें",
+    "user_id": "उपयोगकर्ता ID",
+    "username_server_placeholder": "@उपयोगकर्तानाम:सर्वर",
+    "reason_optional": "कारण (वैकल्पिक)",
+    "invite_button": "आमंत्रित करें"
+  },
+  "JoinAddressPrompt": {
+    "join_with_address": "पते से जुड़ें",
+    "enter_public_address": "कम्युनिटी में जुड़ने के लिए सार्वजनिक पता दर्ज करें। पता प्रारूप:",
+    "address": "पता",
+    "invalid_address": "अमान्य पता",
+    "open": "खोलें"
+  },
+  "LeaveRoomPrompt": {
+    "leave_room": "कमरा छोड़ें",
+    "confirm_leave": "क्या आप वाकई इस कमरे को छोड़ना चाहते हैं?",
+    "failed_to_leave": "कमरा छोड़ने में विफल!",
+    "leaving": "छोड़ रहा है...",
+    "leave": "छोड़ें"
+  },
+  "LeaveSpacePrompt": {
+    "leave_space": "स्पेस छोड़ें",
+    "confirm_leave": "क्या आप वाकई इस स्पेस को छोड़ना चाहते हैं?",
+    "failed_to_leave": "स्पेस छोड़ने में विफल!",
+    "leaving": "छोड़ रहा है...",
+    "leave": "छोड़ें"
+  },
+  "MsgTypeRenderers": {
+    "image": "छवि",
+    "video": "वीडियो",
+    "audio": "ऑडियो",
+    "unnamed_file": "बेनाम फ़ाइल",
+    "file": "फ़ाइल",
+    "open_location": "स्थान खोलें",
+    "sticker": "स्टिकर"
+  },
+  "AccountDataEditor": {
+    "account_data": "खाता डेटा",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "json_content": "JSON सामग्री",
+    "edit": "संपादित करें"
+  },
+  "Features": {
+    "CreateRoomForm": {
+      "access": "पहुंच",
+      "name": "नाम",
+      "topic_optional": "विषय (वैकल्पिक)",
+      "options": "विकल्प",
+      "advance_options": "उन्नत विकल्प",
+      "create": "बनाएँ",
+      "encryption": "एंड-टू-एंड एन्क्रिप्शन",
+      "encryption_description": "एक बार यह सुविधा सक्षम हो जाने पर, कमरा बनने के बाद इसे अक्षम नहीं किया जा सकता।",
+      "knock_to_join": "जुड़ने के लिए दस्तक दें",
+      "knock_to_join_description": "कोई भी इस कमरे में जुड़ने का अनुरोध भेज सकता है।",
+      "allow_federation": "फेडरेशन की अनुमति दें",
+      "allow_federation_description": "अन्य सर्वरों के उपयोगकर्ता जुड़ सकते हैं।"
+    },
+    "CreateSpaceForm": {
+      "access": "पहुंच",
+      "name": "नाम",
+      "topic_optional": "विषय (वैकल्पिक)",
+      "options": "विकल्प",
+      "advance_options": "उन्नत विकल्प",
+      "create": "बनाएँ",
+      "knock_to_join": "जुड़ने के लिए दस्तक दें",
+      "knock_to_join_description": "कोई भी इस स्पेस में जुड़ने का अनुरोध भेज सकता है।",
+      "allow_federation": "फेडरेशन की अनुमति दें",
+      "allow_federation_description": "अन्य सर्वरों के उपयोगकर्ता जुड़ सकते हैं。"
+    }
+  }
+}

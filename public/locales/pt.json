@@ -1,0 +1,352 @@
+{
+  "Organisms": {
+    "RoomCommon": {
+      "changed_room_name": "alterou o nome da sala"
+    }
+  },
+  "Components": {
+    "PasswordStage": {
+      "account_password": "Senha da Conta",
+      "auth_instruction": "Para realizar esta ação, você precisa se autenticar inserindo a senha da sua conta.",
+      "password": "Senha",
+      "invalid_password": "Senha inválida!",
+      "continue": "Continuar"
+    },
+    "EmailStage": {
+      "email": "E-mail",
+      "send_verification_email": "Enviar E-mail de Verificação",
+      "cancel": "Cancelar",
+      "verify_email": "Verificar E-mail",
+      "failed_to_send": "Falha ao enviar a solicitação de e-mail de verificação.",
+      "verification_sent": "Solicitação de verificação enviada",
+      "check_email": "Por favor, verifique seu e-mail \"{{email}}\" e confirme antes de continuar.",
+      "continue": "Continuar",
+      "provide_email": "Fornecer E-mail",
+      "please_provide_email": "Por favor, forneça um e-mail para enviar a solicitação de verificação.",
+      "sending_verification": "Enviando e-mail de verificação..."
+    },
+    "ReCaptchaStage": {
+      "cancel": "Cancelar",
+      "invalid_data": "Dados inválidos",
+      "no_valid_data": "Nenhum dado válido encontrado para prosseguir com a verificação ReCAPTCHA.",
+      "check_box": "Por favor, marque a caixa abaixo para continuar."
+    },
+    "RegistrationTokenStage": {
+      "registration_token": "Token de Registro",
+      "retry": "Tentar Novamente",
+      "cancel": "Cancelar",
+      "invalid_token": "O token de registro fornecido é inválido.",
+      "please_submit_token": "Por favor, envie o token de registro fornecido pelo administrador do seu servidor."
+    },
+    "SSOStage": {
+      "sso_login": "Login SSO",
+      "auth_instruction": "Para realizar esta ação, você precisa se autenticar através do login SSO.",
+      "continue": "Continuar",
+      "continue_with_sso": "Continuar com SSO"
+    },
+    "TermsStage": {
+      "retry": "Tentar Novamente",
+      "cancel": "Cancelar",
+      "failed_to_submit": "Falha ao enviar a aceitação dos termos e condições."
+    },
+    "AdditionalCreatorInput": {
+      "founders": "Fundadores",
+      "founders_description": "Usuários com privilégios especiais podem ser atribuídos na criação. Esses usuários têm permissões de controle elevadas e só podem ser modificados durante atualizações.",
+      "enter": "Inserir",
+      "username_placeholder": "@usuário:servidor",
+      "no_suggestions": "Nenhuma sugestão",
+      "provide_user_id": "Por favor, forneça o ID do usuário e pressione Enter."
+    },
+    "CreateRoomAliasInput": {
+      "address_optional": "Endereço (opcional)",
+      "pick_unique_address": "Escolha um endereço único para torná-lo descobrível.",
+      "address_taken": "Este endereço já está em uso. Por favor, escolha outro endereço."
+    },
+    "CreateRoomKindSelector": {
+      "restricted": "Restrito",
+      "restricted_description": "Apenas membros do espaço principal podem entrar.",
+      "private": "Privado",
+      "private_description": "Apenas pessoas convidadas podem entrar.",
+      "public": "Público",
+      "public_description": "Qualquer pessoa com o endereço pode entrar."
+    },
+    "RoomVersionSelector": {
+      "version": "Versão",
+      "versions": "Versões"
+    },
+    "Editor": {
+      "bold": "Negrito",
+      "italic": "Itálico",
+      "underline": "Sublinhado",
+      "strike_through": "Tachado",
+      "inline_code": "Código em linha",
+      "spoiler": "Spoiler",
+      "block_quote": "Bloco de citação",
+      "block_code": "Bloco de código",
+      "ordered_list": "Lista ordenada",
+      "unordered_list": "Lista não ordenada",
+      "heading_1": "Cabeçalho 1",
+      "heading_2": "Cabeçalho 2",
+      "heading_3": "Cabeçalho 3",
+      "exit_formatting": "Sair da formatação",
+      "disable_markdown": "Desativar Markdown",
+      "enable_markdown": "Ativar Markdown"
+    }
+  },
+  "Pages": {
+    "Login": {
+      "login": "Entrar",
+      "no_support": "Este cliente não suporta login no servidor \"{{server}}\". Nenhum método de login baseado em senha e SSO encontrado.",
+      "no_account": "Não tem uma conta?",
+      "register": "Registrar"
+    },
+    "PasswordLoginForm": {
+      "hint": "Dica",
+      "username_hint": "Nome de usuário:",
+      "matrix_id_hint": "ID Matrix:",
+      "email_hint": "E-mail:",
+      "username": "Nome de usuário",
+      "server_not_allowed": "Sua instância do cliente não permite login com servidores personalizados.",
+      "failed_find_server": "Falha ao encontrar o servidor do seu ID Matrix.",
+      "password": "Senha",
+      "invalid_credentials": "Nome de usuário ou senha inválidos.",
+      "account_deactivated": "Esta conta foi desativada.",
+      "invalid_request": "Falha no login. Alguns dos dados da sua solicitação são inválidos.",
+      "rate_limited": "Falha no login. Sua solicitação de login foi limitada pela taxa do servidor, por favor tente novamente mais tarde.",
+      "unknown_error": "Falha no login. Motivo desconhecido.",
+      "forget_password": "Esqueceu a senha?",
+      "login_button": "Entrar"
+    },
+    "Register": {
+      "register": "Registrar",
+      "have_account": "Já tem uma conta?",
+      "login": "Entrar",
+      "registration_disabled": "O registro está desativado neste servidor.",
+      "rate_limited": "Você foi limitado por taxa! Por favor, tente novamente mais tarde.",
+      "invalid_request": "Solicitação inválida! Falha ao obter opções de registro.",
+      "not_support_registration": "Esta aplicação não suporta registro neste servidor."
+    },
+    "ResetPassword": {
+      "reset_password": "Redefinir Senha",
+      "remember_password": "Lembrou da senha?",
+      "login": "Entrar",
+      "reset_success": "A senha foi redefinida com sucesso. Por favor, entre com sua nova senha.",
+      "homeserver_email": "O servidor {{server}} enviará um e-mail para você redefinir sua senha.",
+      "email": "E-mail",
+      "new_password": "Nova Senha",
+      "confirm_password": "Confirmar Senha",
+      "reset_button": "Redefinir Senha"
+    },
+    "ServerPicker": {
+      "homeserver_list": "Lista de Servidores"
+    },
+    "AuthLayout": {
+      "homeserver": "Servidor",
+      "looking_for_homeserver": "Procurando servidor...",
+      "failed_to_find_homeserver": "Falha ao encontrar o servidor.",
+      "failed_to_connect_config": "Falha na conexão. A configuração do servidor encontrada {{host}} parece inutilizável.",
+      "failed_to_connect_invalid": "Falha na conexão. A URL base da configuração do servidor parece inválida.",
+      "connecting_to": "Conectando a {{url}}",
+      "failed_to_connect": "Falha na conexão. O servidor está indisponível no momento ou não existe.",
+      "loading_auth_flow": "Carregando fluxo de autenticação...",
+      "failed_to_get_auth_flow": "Falha ao obter informações do fluxo de autenticação."
+    },
+    "AuthFooter": {
+      "about": "Sobre",
+      "powered_by_matrix": "Desenvolvido por Matrix"
+    },
+    "SSOLogin": {
+      "continue_with_sso": "Continuar com SSO",
+      "continue_with": "Continuar com {{name}}"
+    },
+    "WelcomePage": {
+      "welcome_to_cinny": "Bem-vindo ao Cinny",
+      "subtitle": "Mais um cliente Matrix.",
+      "source_code": "Código Fonte",
+      "support": "Suporte"
+    },
+    "SyncStatus": {
+      "connecting": "Conectando...",
+      "connection_lost_reconnecting": "Conexão perdida! Reconectando...",
+      "connection_lost": "Conexão perdida!"
+    },
+    "HomeTab": {
+      "mark_as_read": "Marcar como lido",
+      "home": "Início"
+    },
+    "SettingsTab": {
+      "user_settings": "Configurações do Usuário"
+    },
+    "PasswordRegisterForm": {
+      "username": "Nome de usuário",
+      "password": "Senha",
+      "confirm_password": "Confirmar Senha",
+      "register_button": "Registrar",
+      "password_mismatch": "Senhas não coincidem",
+      "invalid_username": "Nome de usuário inválido",
+      "invalid_password": "Senha muito curta ou fraca"
+    },
+    "Home": {
+      "title": "Início",
+      "mark_as_read": "Marcar como Lido",
+      "no_rooms": "Nenhuma Sala",
+      "no_rooms_description": "Você ainda não tem nenhuma sala.",
+      "create_room": "Criar Sala",
+      "create_room_button": "Criar Sala",
+      "explore_community_rooms": "Explorar Salas da Comunidade",
+      "join_with_address": "Entrar com Endereço",
+      "message_search": "Pesquisar Mensagens",
+      "rooms": "Salas"
+    }
+  },
+  "Settings": {
+    "general": "Geral",
+    "account": "Conta",
+    "notifications": "Notificações",
+    "devices": "Dispositivos",
+    "emojis_stickers": "Emojis e Figurinhas",
+    "developer_tools": "Ferramentas de Desenvolvedor",
+    "about": "Sobre",
+    "appearance": "Aparência",
+    "system_theme": "Tema do Sistema",
+    "system_theme_description": "Escolha o tema claro ou escuro com base na preferência do sistema.",
+    "theme": "Tema",
+    "theme_description": "Tema a ser usado quando o tema do sistema não estiver ativado.",
+    "monochrome_mode": "Modo Monocromático",
+    "twitter_emoji": "Emoji do Twitter",
+    "page_zoom": "Zoom da Página",
+    "formatting": "Formatação",
+    "year": "Ano",
+    "month": "Mês",
+    "day_of_month": "Dia do Mês",
+    "day_of_week": "Dia da Semana",
+    "save": "Salvar",
+    "date_format": "Formato de Data",
+    "date_time": "Data e Hora",
+    "24_hour_time_format": "Formato de 24 Horas",
+    "editor": "Editor",
+    "enter_for_newline": "Enter para Nova Linha",
+    "enter_for_newline_description": "Use Ctrl+ENTER para enviar mensagem, ENTER para nova linha.",
+    "markdown_formatting": "Formatação Markdown",
+    "hide_typing_read_receipts": "Ocultar Digitação e Confirmações de Leitura",
+    "hide_typing_read_receipts_description": "Desative a digitação e confirmações de leitura para proteger sua privacidade.",
+    "messages": "Mensagens",
+    "message_layout": "Layout da Mensagem",
+    "message_spacing": "Espaçamento da Mensagem",
+    "legacy_username_color": "Cor Legada do Nome de Usuário",
+    "hide_membership_change": "Ocultar Alterações de Associação",
+    "hide_profile_change": "Ocultar Alterações de Perfil",
+    "disable_media_auto_load": "Desativar Carregamento Automático de Mídia",
+    "url_preview": "Visualização de URL",
+    "url_preview_encrypted_room": "Visualização de URL em Sala Criptografada",
+    "show_hidden_events": "Mostrar Eventos Ocultos"
+  },
+  "EmojiBoard": {
+    "sticker": "Figurinha",
+    "emoji": "Emoji",
+    "recent": "Recente",
+    "search_or_text_reaction": "Pesquisar ou Reação de Texto",
+    "search": "Pesquisar",
+    "react": "Reagir",
+    "search_results": "Resultados da Pesquisa",
+    "no_results_found": "Nenhum resultado encontrado",
+    "no_sticker_packs": "Nenhum pacote de figurinhas!",
+    "add_stickers_from_settings": "Adicione figurinhas nas configurações de usuário, sala ou espaço.",
+    "unknown_pack": "Pacote Desconhecido",
+    "personal_pack": "Pacote Pessoal",
+    "unknown": "Desconhecido"
+  },
+  "ClientRoot": {
+    "heating_up": "Aquecendo",
+    "clear_cache_reload": "Limpar Cache e Recarregar",
+    "logout": "Sair",
+    "failed_to_load": "Falha ao carregar. {{error}}",
+    "failed_to_start": "Falha ao iniciar. {{error}}",
+    "retry": "Tentar Novamente"
+  },
+  "EventReaders": {
+    "seen_by": "Visto por"
+  },
+  "ImageEditor": {
+    "image_editor": "Editor de Imagem",
+    "save": "Salvar"
+  },
+  "ImagePackView": {
+    "emojis_and_stickers": "Emojis e Figurinhas"
+  },
+  "ImageViewer": {
+    "download": "Baixar"
+  },
+  "InviteUserPrompt": {
+    "invite": "Convidar",
+    "user_id": "ID do Usuário",
+    "username_server_placeholder": "@usuário:servidor",
+    "reason_optional": "Motivo (opcional)",
+    "invite_button": "Convidar"
+  },
+  "JoinAddressPrompt": {
+    "join_with_address": "Entrar com Endereço",
+    "enter_public_address": "Digite o endereço público para entrar na comunidade. Formato do endereço:",
+    "address": "Endereço",
+    "invalid_address": "Endereço inválido",
+    "open": "Abrir"
+  },
+  "LeaveRoomPrompt": {
+    "leave_room": "Sair da Sala",
+    "confirm_leave": "Tem certeza de que deseja sair desta sala?",
+    "failed_to_leave": "Falha ao sair da sala!",
+    "leaving": "Saindo...",
+    "leave": "Sair"
+  },
+  "LeaveSpacePrompt": {
+    "leave_space": "Sair do Espaço",
+    "confirm_leave": "Tem certeza de que deseja sair deste espaço?",
+    "failed_to_leave": "Falha ao sair do espaço!",
+    "leaving": "Saindo...",
+    "leave": "Sair"
+  },
+  "MsgTypeRenderers": {
+    "image": "Imagem",
+    "video": "Vídeo",
+    "audio": "Áudio",
+    "unnamed_file": "Arquivo Sem Nome",
+    "file": "Arquivo",
+    "open_location": "Abrir Localização",
+    "sticker": "Figurinha"
+  },
+  "AccountDataEditor": {
+    "account_data": "Dados da Conta",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "json_content": "Conteúdo JSON",
+    "edit": "Editar"
+  },
+  "Features": {
+    "CreateRoomForm": {
+      "access": "Acesso",
+      "name": "Nome",
+      "topic_optional": "Tópico (Opcional)",
+      "options": "Opções",
+      "advance_options": "Opções Avançadas",
+      "create": "Criar",
+      "encryption": "Criptografia de Ponta a Ponta",
+      "encryption_description": "Uma vez ativado, este recurso não pode ser desativado após a criação da sala.",
+      "knock_to_join": "Bater para Entrar",
+      "knock_to_join_description": "Qualquer um pode enviar solicitação para entrar nesta sala.",
+      "allow_federation": "Permitir Federação",
+      "allow_federation_description": "Usuários de outros servidores podem entrar."
+    },
+    "CreateSpaceForm": {
+      "access": "Acesso",
+      "name": "Nome",
+      "topic_optional": "Tópico (Opcional)",
+      "options": "Opções",
+      "advance_options": "Opções Avançadas",
+      "create": "Criar",
+      "knock_to_join": "Bater para Entrar",
+      "knock_to_join_description": "Qualquer um pode enviar solicitação para entrar neste espaço.",
+      "allow_federation": "Permitir Federação",
+      "allow_federation_description": "Usuários de outros servidores podem entrar."
+    }
+  }
+}

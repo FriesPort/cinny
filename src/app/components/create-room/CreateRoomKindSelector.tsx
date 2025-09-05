@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, Text, Icon, Icons, config, IconSrc } from 'folds';
+import { useTranslation } from 'react-i18next';
 import { SequenceCard } from '../sequence-card';
 import { SettingTile } from '../setting-tile';
 
@@ -22,6 +23,7 @@ export function CreateRoomKindSelector({
   disabled,
   getIcon,
 }: CreateRoomKindSelectorProps) {
+  const { t } = useTranslation();
   return (
     <Box shrink="No" direction="Column" gap="100">
       {canRestrict && (
@@ -40,9 +42,9 @@ export function CreateRoomKindSelector({
             before={<Icon size="400" src={getIcon(CreateRoomKind.Restricted)} />}
             after={value === CreateRoomKind.Restricted && <Icon src={Icons.Check} />}
           >
-            <Text size="H6">Restricted</Text>
+            <Text size="H6">{t('Components.CreateRoomKindSelector.restricted', 'Restricted')}</Text>
             <Text size="T300" priority="300">
-              Only member of parent space can join.
+              {t('Components.CreateRoomKindSelector.restricted_description', 'Only member of parent space can join.')}
             </Text>
           </SettingTile>
         </SequenceCard>
@@ -62,9 +64,9 @@ export function CreateRoomKindSelector({
           before={<Icon size="400" src={getIcon(CreateRoomKind.Private)} />}
           after={value === CreateRoomKind.Private && <Icon src={Icons.Check} />}
         >
-          <Text size="H6">Private</Text>
+          <Text size="H6">{t('Components.CreateRoomKindSelector.private', 'Private')}</Text>
           <Text size="T300" priority="300">
-            Only people with invite can join.
+            {t('Components.CreateRoomKindSelector.private_description', 'Only people with invite can join.')}
           </Text>
         </SettingTile>
       </SequenceCard>
@@ -83,9 +85,9 @@ export function CreateRoomKindSelector({
           before={<Icon size="400" src={getIcon(CreateRoomKind.Public)} />}
           after={value === CreateRoomKind.Public && <Icon src={Icons.Check} />}
         >
-          <Text size="H6">Public</Text>
+          <Text size="H6">{t('Components.CreateRoomKindSelector.public', 'Public')}</Text>
           <Text size="T300" priority="300">
-            Anyone with the address can join.
+            {t('Components.CreateRoomKindSelector.public_description', 'Anyone with the address can join.')}
           </Text>
         </SettingTile>
       </SequenceCard>
