@@ -1,5 +1,9 @@
 name: Deploy to Cloudflare Pages
 
+permissions:
+  contents: read
+  issues: write
+
 on:
   push:
     branches:
@@ -55,11 +59,11 @@ jobs:
       - name: Wait for manual approval
         uses: trstringer/manual-approval@v1
         with:
-          secret: ${{ github.token }}
+          secret: ${{ secrets.GITHUB_TOKEN }}
           approvers: ${{ github.actor }}
-          issue-title: "Approve production deployment"
-          issue-body: "Review the preview deployment and approve for production"
-  
+          issue-title: 'Approve production deployment'
+          issue-body: 'Review the preview deployment and approve for production'
+
   deploy-production:
     needs: approve-production
     runs-on: ubuntu-latest
@@ -69,7 +73,7 @@ jobs:
         with:
           name: built-dist
           path: dist/
-  
+
       - name: Deploy to Cloudflare Pages (production)
         run: |
           npx wrangler pages deploy ./dist --project-name cinny --branch main
