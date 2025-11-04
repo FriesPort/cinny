@@ -27,17 +27,15 @@ jobs:
         uses: actions/setup-node@v4.4.0
         with:
           node-version: 20.12.2
-          cache: 'pnpm'
+          cache: 'npm'
 
       - name: Install dependencies
-        run: |
-          corepack enable
-          pnpm install --frozen-lockfile
+        run: npm ci
 
       - name: Build app
         env:
           NODE_OPTIONS: '--max_old_space_size=4096'
-        run: pnpm run build
+        run: npm run build
 
       - name: Remove .git folder
         run: |
@@ -45,7 +43,7 @@ jobs:
 
       - name: Deploy to Cloudflare Pages (preview)
         run: |
-          pnpm dlx wrangler pages deploy ./dist --project-name cinnyapp --branch preview
+          npx wrangler pages deploy ./dist --project-name cinnyapp --branch preview
 
       - name: Save build artifacts
         uses: actions/upload-artifact@v4
@@ -72,4 +70,4 @@ jobs:
 
       - name: Deploy to Cloudflare Pages (production)
         run: |
-          pnpm dlx wrangler pages deploy ./dist --project-name cinnyapp --branch main
+          npx wrangler pages deploy ./dist --project-name cinnyapp --branch main
