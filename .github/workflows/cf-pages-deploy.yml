@@ -52,21 +52,15 @@ jobs:
           path: dist/
           retention-days: 1
 
-  approve-production:
-    needs: deploy-preview
-    runs-on: ubuntu-latest
-    steps:
-      - name: Wait for manual approval
-        uses: trstringer/manual-approval@v1
-        with:
-          secret: ${{ secrets.GITHUB_TOKEN }}
-          approvers: ${{ github.actor }}
-          issue-title: 'Approve production deployment'
-          issue-body: 'Review the preview deployment and approve for production'
+  # NOTE: Manual approval is handled via GitHub Environments (recommended).
+  # Create an environment named `production` in the repository settings
+  # and add required reviewers there. The `deploy-production` job below
+  # will be blocked by the environment until reviewers approve.
 
   deploy-production:
-    needs: approve-production
+    needs: deploy-preview
     runs-on: ubuntu-latest
+    environment: production
     steps:
       - name: Download build artifacts
         uses: actions/download-artifact@v4
