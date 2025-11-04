@@ -1,10 +1,9 @@
 {
   "defaultHomeserver": 0,
   "homeserverList": [
-    
+    "fp.ac.cn",
     "matrix.org",
     "mozilla.org",
-
     "4d2.org",
     "archaeo.social",
     "bark.lgbt",
@@ -38,7 +37,6 @@
     "unredacted.org",
     "we2.ee",
     "xmr.se",
-
     "fachschaften.org",
     "pikaviestin.fi",
     "federated.nexus",
@@ -61,6 +59,7 @@
   "featuredCommunities": {
     "openAsDefault": false,
     "spaces": [
+      "#friesport:mozilla.org",
       "#cinny-space:matrix.org",
       "#community:matrix.org",
       "#space:envs.net",
@@ -69,6 +68,7 @@
       "#mathematics-on:matrix.org"
     ],
     "rooms": [
+      "#fp-lounge:mozilla.org",
       "#cinny:matrix.org",
       "#freesoftware:matrix.org",
       "#pcapdroid:matrix.org",
@@ -77,6 +77,7 @@
       "#disroot:aria-net.org"
     ],
     "servers": [
+      "fp.ac.cn",
       "matrix.org",
       "mozilla.org",
       "4d2.org",
