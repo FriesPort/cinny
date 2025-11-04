@@ -39,7 +39,7 @@ jobs:
 
       - name: Deploy to Cloudflare Pages (preview)
         run: |
-          npx wrangler pages deploy ./dist --project-name cinnyapp --branch preview
+          npx wrangler pages deploy ./dist --project-name cinny --branch preview
 
       - name: Save build artifacts
         uses: actions/upload-artifact@v4
@@ -72,4 +72,4 @@ jobs:
   
       - name: Deploy to Cloudflare Pages (production)
         run: |
-          npx wrangler pages deploy ./dist --project-name cinnyapp --branch main
+          npx wrangler pages deploy ./dist --project-name cinny --branch main
