@@ -3,7 +3,7 @@ name: Deploy to Cloudflare Pages
 on:
   push:
     branches:
-      - dev
+      - fp-deploy
   workflow_dispatch:
 
 env:
